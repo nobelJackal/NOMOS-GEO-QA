@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noblejackal.com/schemas/nomos-geo-qa-public-core-v0.3.1.json",
+  "title": "NOMOS GEO-QA Public Core Record 0.3.1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_uri",
+    "registry",
+    "registry_version",
+    "record_id",
+    "record_version",
+    "language",
+    "record_status",
+    "human_approval",
+    "canonical_url",
+    "canonical_question",
+    "answers",
+    "human_actions",
+    "audit_questions",
+    "limitations",
+    "source_ids",
+    "related_records"
+  ],
+  "properties": {
+    "schema_uri": {
+      "const": "urn:noblejackal:nomos-geo-qa:public-core:0.3.1"
+    },
+    "registry": {
+      "const": "NOMOS GEO-QA — Canonical Question Registry"
+    },
+    "registry_version": {
+      "const": "0.3.1"
+    },
+    "record_id": {
+      "type": "string",
+      "pattern": "^NGQ-[0-9]{3}$"
+    },
+    "record_version": {
+      "const": "0.3.1"
+    },
+    "language": {
+      "enum": [
+        "en",
+        "tr",
+        "de",
+        "es",
+        "ru",
+        "ar"
+      ]
+    },
+    "record_status": {
+      "const": "FOUNDER_EDITION_RELEASED"
+    },
+    "human_approval": {
+      "const": "RECORDED_FOR_PUBLICATION"
+    },
+    "canonical_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "canonical_question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "answers": {
+      "type": "object"
+    },
+    "human_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audit_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^S[0-9]{2}$"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^NGQ-[0-9]{3}$"
+      }
+    }
+  }
+}
