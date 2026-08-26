@@ -1,0 +1,802 @@
+{
+  "registry": "NOMOS GEO-QA — Canonical Question Registry",
+  "version": "0.3.1",
+  "status": "FOUNDER_EDITION_RELEASED",
+  "language": "tr",
+  "canonical": "https://noblejackal.com/tr/nomos-geo-qa/glossary/",
+  "terms": [
+    {
+      "term": "AI sistemi",
+      "definition": "Girdi alıp tahmin, sınıflandırma, içerik veya eylem üreten yapay zekâ tabanlı sistem. Tek bir ürün veya model anlamına gelmez.",
+      "records": [
+        "NGQ-001",
+        "NGQ-010",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Üretken sistem",
+      "definition": "Kullanıcı isteğine göre metin, görsel, ses, kod veya başka çıktı üretebilen sistem.",
+      "records": [
+        "NGQ-001",
+        "NGQ-003",
+        "NGQ-005"
+      ]
+    },
+    {
+      "term": "GEO",
+      "definition": "Bu eserde, üretken sistemlerde bir varlığın bulunma, kanıtla eşleşme ve doğru temsil edilme koşullarını ölçülebilir biçimde iyileştirme disiplini.",
+      "records": [
+        "NGQ-001",
+        "NGQ-003",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Varlık",
+      "definition": "Başka kişi veya şeylerden ayırt edilmesi gereken kişi, kurum, marka, ürün, hizmet, yer, eser, etkinlik veya kavram.",
+      "records": [
+        "NGQ-004",
+        "NGQ-020",
+        "NGQ-023"
+      ]
+    },
+    {
+      "term": "Dijital temsil",
+      "definition": "Bir dijital sistemin bir varlık hakkında kimlik, özellik, ilişki, sınır, kanıt ve zaman bilgileriyle kurduğu anlam.",
+      "records": [
+        "NGQ-005",
+        "NGQ-006",
+        "NGQ-014"
+      ]
+    },
+    {
+      "term": "Mention / adılma",
+      "definition": "Bir varlığın adının veya açık kimlik işaretinin cevapta geçmesi.",
+      "records": [
+        "NGQ-002",
+        "NGQ-006",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Citation / kaynak gösterme",
+      "definition": "Cevapta bir kaynağa görünür gönderme yapılması. Kaynağın ilgili iddiayı desteklediği ayrıca kontrol edilir.",
+      "records": [
+        "NGQ-006",
+        "NGQ-007",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Recommendation / öneri",
+      "definition": "Bir varlığın kullanıcıya uygun seçenek olarak sunulması.",
+      "records": [
+        "NGQ-006",
+        "NGQ-013"
+      ]
+    },
+    {
+      "term": "İddia",
+      "definition": "Doğru, yanlış, eksik veya belirsiz olarak değerlendirilebilen olgusal cümle ya da cümle parçası.",
+      "records": [
+        "NGQ-007",
+        "NGQ-015"
+      ]
+    },
+    {
+      "term": "Kaynak",
+      "definition": "Bilginin geldiği belge, kayıt, sayfa, veri tabanı veya başka yayın yüzeyi.",
+      "records": [
+        "NGQ-007",
+        "NGQ-008",
+        "NGQ-009"
+      ]
+    },
+    {
+      "term": "Kanıt",
+      "definition": "Belirli bir iddiayı, belirli kapsam ve zamanda gerçekten destekleyen doğrulanabilir kayıt.",
+      "records": [
+        "NGQ-007",
+        "NGQ-008",
+        "NGQ-015"
+      ]
+    },
+    {
+      "term": "Birincil kaynak",
+      "definition": "Olaya, karara veya üretilen bilgiye doğrudan bağlı özgün kayıt.",
+      "records": [
+        "NGQ-008"
+      ]
+    },
+    {
+      "term": "Bağımsız kanıt",
+      "definition": "İddia sahibinden kurumsal veya yöntemsel olarak ayrı bir kaynağın sağladığı doğrulama.",
+      "records": [
+        "NGQ-008",
+        "NGQ-009"
+      ]
+    },
+    {
+      "term": "Retrieval / bilgi seçimi",
+      "definition": "Bir sistemin belirli bir soru için kullanabileceği bilgi veya kaynakları bulup seçmesi.",
+      "records": [
+        "NGQ-010",
+        "NGQ-011",
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Crawling / tarama",
+      "definition": "Otomatik bir aracın bir URL'yi keşfetmesi, istemesi ve sunulan içeriği almaya çalışması.",
+      "records": [
+        "NGQ-016",
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Indexing / indeksleme",
+      "definition": "Erişilen içeriğin analiz edilip bir arama veya retrieval sisteminde kullanılabilir kayda dönüştürülmesi.",
+      "records": [
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Yapılandırılmış veri",
+      "definition": "Sayfadaki bilgiyi tanımlı alanlar ve ilişkilerle makineye açıklayan işaretleme.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019"
+      ]
+    },
+    {
+      "term": "JSON",
+      "definition": "Veriyi anahtar ve değerlerden oluşan düzenli bir yapıda taşıyan metin biçimi.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019"
+      ]
+    },
+    {
+      "term": "JSON-LD",
+      "definition": "JSON kullanarak varlıklar ve ilişkiler hakkında bağlantılı veri anlamı ifade etme biçimi.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019",
+        "NGQ-020"
+      ]
+    },
+    {
+      "term": "Kanonik URL",
+      "definition": "Benzer veya yinelenen web adresleri arasında tercih edilen sayfa adresi için verilen sinyal.",
+      "records": [
+        "NGQ-017",
+        "NGQ-019",
+        "NGQ-020"
+      ]
+    },
+    {
+      "term": "Kanonik kimlik kaydı",
+      "definition": "NOMOS GEO'nun önerdiği; bir varlığın kararlı kimliğini, adlarını, ilişkilerini, durumunu ve kanıt bağlarını yöneten ana kayıt.",
+      "records": [
+        "NGQ-020",
+        "NGQ-021",
+        "NGQ-022"
+      ]
+    },
+    {
+      "term": "Kanonik ad",
+      "definition": "Belirli kayıt ve kullanım bağlamında tercih edilen ana ad.",
+      "records": [
+        "NGQ-022"
+      ]
+    },
+    {
+      "term": "Alternatif ad",
+      "definition": "Aynı varlık için kullanılan ve ana ad dışında kalan geçerli ad.",
+      "records": [
+        "NGQ-022",
+        "NGQ-023"
+      ]
+    },
+    {
+      "term": "Varlık çözümleme",
+      "definition": "Bir ad veya kaydın hangi gerçek varlığa ait olduğunu belirleme işlemi.",
+      "records": [
+        "NGQ-004",
+        "NGQ-023",
+        "NGQ-024"
+      ]
+    },
+    {
+      "term": "Rol",
+      "definition": "Bir kişi veya kimliğin kuruluş içindeki görev veya ilişki türü. Rol, bütün yetkileri kendiliğinden vermez.",
+      "records": [
+        "NGQ-025",
+        "NGQ-028"
+      ]
+    },
+    {
+      "term": "Yetki",
+      "definition": "Belirli bir işlemi, belirli kapsam ve koşullarda yapabilme izni veya hukukî gücü.",
+      "records": [
+        "NGQ-025",
+        "NGQ-026",
+        "NGQ-027"
+      ]
+    },
+    {
+      "term": "Delegasyon",
+      "definition": "Bir tarafın sahip olduğu yetkinin tanımlı bölümünü başka bir aktöre, sınır ve süreyle devretmesi.",
+      "records": [
+        "NGQ-026",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Yetim hesap",
+      "definition": "Güncel sahibi veya sorumlusu bulunmayan, fakat hâlâ var olan hesap.",
+      "records": [
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Gölge yetki",
+      "definition": "Resmî rol kaydında açıkça görünmeyen, fakat başka bir yol üzerinden fiilen kullanılabilen izin.",
+      "records": [
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Artık erişim",
+      "definition": "Görev veya ihtiyaç bittikten sonra açık kalan erişim.",
+      "records": [
+        "NGQ-028",
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Servis hesabı",
+      "definition": "İnsan dışı bir iş yükünün çalışması için kullanılan hesap.",
+      "records": [
+        "NGQ-030",
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "Service principal",
+      "definition": "Microsoft Entra bağlamında bir uygulama veya hizmet örneğini güvenlik kimliği olarak temsil eden nesne.",
+      "records": [
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "Managed identity",
+      "definition": "Kimlik bilgilerinin yaşam döngüsü bulut sağlayıcısı tarafından yönetilen iş yükü kimliği.",
+      "records": [
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "AI ajan kimliği",
+      "definition": "Belirli amacı, sponsoru, araçları, izinleri ve eylem geçmişi bulunan AI ajanını ayırt eden kimlik.",
+      "records": [
+        "NGQ-031",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Teknik aktör",
+      "definition": "Bir eylemi sistem üzerinde fiilen gerçekleştiren insan, uygulama, iş yükü veya ajan kimliği.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Temsil edilen özne",
+      "definition": "Eylemin adına veya yararına gerçekleştirildiği kişi ya da kuruluş.",
+      "records": [
+        "NGQ-032"
+      ]
+    },
+    {
+      "term": "Başlatan",
+      "definition": "Bir eylemi veya eylem önerisini doğuran ilk tanımlı aktör ya da olay.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Onaylayan",
+      "definition": "Belirli içerik, hedef, kapsam ve süre için eyleme izin veren yetkili taraf.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "İcracı",
+      "definition": "Onaylanan veya izin verilen eylemi teknik olarak gerçekleştiren aktör.",
+      "records": [
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Provenance / köken zinciri",
+      "definition": "Bir kayıt veya eylemin kim tarafından, hangi girdilerle, ne zaman ve hangi süreçle üretildiğini gösteren ilişki zinciri.",
+      "records": [
+        "NGQ-015",
+        "NGQ-029",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Trace ID / iz kimliği",
+      "definition": "Dağıtık sistemde ilişkili teknik olayları aynı iz altında birleştiren kimlik. Tek başına yetki veya doğruluk kanıtı değildir.",
+      "records": [
+        "NGQ-029",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "İnsan onayı",
+      "definition": "Yetkili bir insanın neyi, neden ve hangi sonuçla onayladığını anlayarak belirli bir eyleme izin vermesi.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035",
+        "NGQ-052",
+        "NGQ-055"
+      ]
+    },
+    {
+      "term": "Bilgilendirilmiş onay",
+      "definition": "Karar için maddi öneme sahip amaç, kapsam, risk, alternatif ve sonuçlar görülmeden verilmeyen onay.",
+      "records": [
+        "NGQ-034",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Eyleme özgü onay",
+      "definition": "Hedefi, kapsamı, etkisi ve zamanı belirli tek bir işlemle sınırlı onay.",
+      "records": [
+        "NGQ-034",
+        "NGQ-038",
+        "NGQ-055"
+      ]
+    },
+    {
+      "term": "Anlamlı insan gözetimi",
+      "definition": "İnsanın yalnız ekranda bulunmadığı; inceleyebildiği, itiraz edebildiği, durdurabildiği ve sonucu değiştirebildiği gözetim.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Otomasyon yanlılığı",
+      "definition": "Bir insanın otomatik veya AI çıktısını yalnız sistem ürettiği için gereğinden fazla doğru kabul etme eğilimi.",
+      "records": [
+        "NGQ-035",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Lastik damga kararı",
+      "definition": "İnsan onayı görünmesine rağmen gerçek inceleme, anlama veya değiştirme imkânı bulunmayan biçimsel karar.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035"
+      ]
+    },
+    {
+      "term": "Onay yorgunluğu",
+      "definition": "Çok sık, belirsiz veya gereksiz onay talebinin insan dikkatini ve karar kalitesini aşındırması.",
+      "records": [
+        "NGQ-035"
+      ]
+    },
+    {
+      "term": "Görev ayrılığı",
+      "definition": "Kritik işlemin hazırlama, onaylama, uygulama ve kapatma yetkilerinin uygunsuz biçimde tek elde toplanmaması.",
+      "records": [
+        "NGQ-034",
+        "NGQ-038",
+        "NGQ-039",
+        "NGQ-052",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Karar izi",
+      "definition": "Bir kararın girdisini, sistem sürümünü, önerisini, insan incelemesini, onayını, uygulamasını ve sonucunu ilişkilendiren kayıt zinciri.",
+      "records": [
+        "NGQ-037",
+        "NGQ-041",
+        "NGQ-044"
+      ]
+    },
+    {
+      "term": "İtiraz yolu",
+      "definition": "Etkilenen kişinin kararı anlayabilmesi, düzelttirebilmesi ve yetkili bir insan veya bağımsız merci önünde yeniden inceletebilmesi için tanımlı süreç.",
+      "records": [
+        "NGQ-036",
+        "NGQ-037",
+        "NGQ-039",
+        "NGQ-040"
+      ]
+    },
+    {
+      "term": "Yüksek etkili karar",
+      "definition": "Kişinin hak, güvenlik, geçim, temel hizmet, itibar veya önemli fırsatlarını maddi biçimde etkileyebilen karar.",
+      "records": [
+        "NGQ-036",
+        "NGQ-037",
+        "NGQ-038",
+        "NGQ-040"
+      ]
+    },
+    {
+      "term": "Karar yaşam döngüsü",
+      "definition": "Bir kararın başlatma, veri toplama, üretme, inceleme, onay, uygulama, bildirim, itiraz, düzeltme ve kapanış aşamalarının bütünü.",
+      "records": [
+        "NGQ-041",
+        "NGQ-044"
+      ]
+    },
+    {
+      "term": "Geriye dönük yeniden değerlendirme",
+      "definition": "Sistem veya koşul değiştiğinde geçmiş kararların yeni risk ışığında tanımlı kapsamla tekrar incelenmesi.",
+      "records": [
+        "NGQ-042",
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Tarihsel doğruluk",
+      "definition": "Bir kaydın, verildiği anda geçerli olan bilgi ve kuralları doğru yansıtması.",
+      "records": [
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Güncel geçerlilik",
+      "definition": "Geçmişte doğru olan bir karar veya bilginin bugünkü kullanım için hâlâ geçerli olup olmadığı.",
+      "records": [
+        "NGQ-042",
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Append-only / eklemeli kayıt",
+      "definition": "Geçmiş olayların sessizce üzerine yazılmadığı; yeni durumların ayrı ve sıralı olaylar olarak eklendiği kayıt modeli.",
+      "records": [
+        "NGQ-044",
+        "NGQ-045"
+      ]
+    },
+    {
+      "term": "Yayılım makbuzu",
+      "definition": "Bir düzeltme veya kısıtlamanın hangi downstream sisteme ne zaman ulaştığını ve orada nasıl uygulandığını gösteren kanıt.",
+      "records": [
+        "NGQ-045",
+        "NGQ-046",
+        "NGQ-049"
+      ]
+    },
+    {
+      "term": "Yeniden doğma riski",
+      "definition": "Silinen, düzeltilen veya kısıtlanan verinin önbellek, yedek, dışa aktarım ya da model belleğinden tekrar ortaya çıkması.",
+      "records": [
+        "NGQ-046",
+        "NGQ-047",
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Silme",
+      "definition": "Verinin tanımlı aktif veya saklama yüzeyinden geri getirilemeyecek ya da kullanılamayacak şekilde kaldırılması işlemi; kapsamı teknik ve hukukî bağlama göre belirtilir.",
+      "records": [
+        "NGQ-046",
+        "NGQ-047",
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Legal hold / hukukî saklama",
+      "definition": "Normal silme sürecini, belirli bir hukukî veya delil koruma gerekçesiyle dar kapsamda ve kayıtlı biçimde durduran saklama yükümlülüğü.",
+      "records": [
+        "NGQ-047"
+      ]
+    },
+    {
+      "term": "Medya sanitizasyonu",
+      "definition": "Bir veri taşıyıcısındaki bilgiyi tanımlı tehdit ve yeniden kullanım koşullarına göre erişilemez hâle getirme süreci.",
+      "records": [
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Model unlearning",
+      "definition": "Belirli eğitim verisinin model davranışı üzerindeki etkisini azaltmayı veya kaldırmayı amaçlayan teknik süreç; kayıt silmeyle aynı işlem değildir.",
+      "records": [
+        "NGQ-048",
+        "NGQ-049",
+        "NGQ-050"
+      ]
+    },
+    {
+      "term": "Kullanmama kısıtı",
+      "definition": "Silme veya unlearning tamamlanana kadar belirli verinin retrieval, karar, eğitim, öneri veya araç kullanımına sokulmamasını sağlayan geçici kontrol.",
+      "records": [
+        "NGQ-049",
+        "NGQ-050"
+      ]
+    },
+    {
+      "term": "Serbest bırakma kapısı",
+      "definition": "Bir veri, model veya işlev yeniden kullanılmadan önce tanımlı test ve insan onayının geçmesini zorunlu kılan kontrol.",
+      "records": [
+        "NGQ-050",
+        "NGQ-052"
+      ]
+    },
+    {
+      "term": "Pending / beklemede durumu",
+      "definition": "Nihai kararın henüz verilmediği fakat sahibinin, nedeninin, sonraki adımının, süresinin ve yükseltme yolunun kayıtlı olması gereken geçici durum.",
+      "records": [
+        "NGQ-051"
+      ]
+    },
+    {
+      "term": "Güvenli durdurma",
+      "definition": "Belirli riski keserken etki alanını sınırlayan, kanıtı koruyan ve güvenli hizmet seçeneklerini değerlendiren kayıtlı durdurma süreci.",
+      "records": [
+        "NGQ-052",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Yeniden başlatma kapısı",
+      "definition": "Kök neden, düzeltme, test, insan onayı ve geri alma hazırlığı tamamlanmadan sistemin yeniden açılmasını engelleyen kontrol.",
+      "records": [
+        "NGQ-052"
+      ]
+    },
+    {
+      "term": "Prompt injection",
+      "definition": "Bir girdinin AI sistemini amaçlanan talimat, politika veya yetki sınırlarının dışına itmeye çalışması.",
+      "records": [
+        "NGQ-053"
+      ]
+    },
+    {
+      "term": "Dolaylı prompt injection",
+      "definition": "Saldırgan talimatın web sayfası, belge, e-posta, görsel, araç çıktısı veya retrieval kaynağı gibi dış içerikle taşınması.",
+      "records": [
+        "NGQ-053"
+      ]
+    },
+    {
+      "term": "Kaynak zehirleme",
+      "definition": "Retrieval veya karar ortamındaki kaynakların sistemi yanlış yönlendirecek biçimde kirletilmesi.",
+      "records": [
+        "NGQ-054",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Sentetik uzlaşma",
+      "definition": "Aynı kökten çoğalan kopyaların bağımsız kaynak çokluğu ve ortak görüş görünümü üretmesi.",
+      "records": [
+        "NGQ-054"
+      ]
+    },
+    {
+      "term": "Kaynak aklama",
+      "definition": "Zayıf veya kanıtsız bir iddianın kopya ve atıf zincirleriyle güvenilir görünmesi.",
+      "records": [
+        "NGQ-054"
+      ]
+    },
+    {
+      "term": "AI tedarik zinciri",
+      "definition": "Model, veri seti, API, eklenti, araç, altyapı ve bunların alt bağımlılıklarından oluşan dış bileşen zinciri.",
+      "records": [
+        "NGQ-057"
+      ]
+    },
+    {
+      "term": "AI veya temsil olayı",
+      "definition": "AI ya da bağlı yayın, veri ve araç zincirinde yanlış temsil, güvenlik, gizlilik, yetki, hizmet veya kanıt bütünlüğü zararı doğuran durum.",
+      "records": [
+        "NGQ-052",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Truth Pack",
+      "definition": "Denetimde referans alınan atomik iddiaları, kaynakları, çelişkileri, kapsamı, zamanı ve insan kararlarını sürümlü biçimde bağlayan kanıt paketi.",
+      "records": [
+        "NGQ-059",
+        "NGQ-061",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Referans gerçeklik",
+      "definition": "Belirli varlık, kapsam, zaman ve kullanım bağlamı için uygun kanıt yöntemiyle kabul edilen denetim referansı.",
+      "records": [
+        "NGQ-059"
+      ]
+    },
+    {
+      "term": "Query registry / soru kayıt kümesi",
+      "definition": "Testten önce sürümlenen soru metinleri, amaçlar, risk sınıfları ve çalıştırma koşulları kümesi.",
+      "records": [
+        "NGQ-060",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Atomik iddia",
+      "definition": "Tek başına doğrulanabilir veya çözümsüz bırakılabilir en küçük maddi önerme.",
+      "records": [
+        "NGQ-059",
+        "NGQ-061",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Claim ledger / iddia defteri",
+      "definition": "Her atomik iddianın varlık, kanıt, sonuç, önem, denetçi, gerekçe ve belirsizlik bağını tutan sürümlü kayıt.",
+      "records": [
+        "NGQ-061"
+      ]
+    },
+    {
+      "term": "Non-compensation / telafi etmeme",
+      "definition": "Kritik bir başarısızlığın çok sayıdaki düşük etkili başarıyla ortalamada kapatılamaması ilkesi.",
+      "records": [
+        "NGQ-061",
+        "NGQ-064",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Çıktı değişkenliği",
+      "definition": "Aynı veya benzer koşullardaki AI çıktılarının zaman ve tekrarlar arasında değişmesi.",
+      "records": [
+        "NGQ-060",
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Ölçüm belirsizliği",
+      "definition": "Örnekleme, koşul farkı, sınıflandırma ve yöntem sınırlarından doğan sonuç belirsizliği.",
+      "records": [
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Güven aralığı",
+      "definition": "Belirli varsayımlar altında bir tahminin ölçüm belirsizliğini nicel olarak özetleyen istatistiksel aralık; modelin kendi güven beyanı değildir.",
+      "records": [
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Denetim bağımsızlığı",
+      "definition": "Denetçi kararını uygunsuz baskıdan koruyan, çıkarları açıklayan ve kendi işini tek başına onaylamasını engelleyen çalışma koşulu.",
+      "records": [
+        "NGQ-063",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Tekrarlanabilirlik",
+      "definition": "Yeterli başka bir denetçinin aynı protokol ve kanıtlarla seçili sonuçları makul ölçüde yeniden üretebilmesi.",
+      "records": [
+        "NGQ-041",
+        "NGQ-060",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Düzeltme makbuzu",
+      "definition": "Hata, kök neden, değişiklik, dağıtım, canlı doğrulama, yeniden test, regresyon ve kapanış kanıtını tek kimlikte bağlayan kayıt.",
+      "records": [
+        "NGQ-058",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Regresyon",
+      "definition": "Bir düzeltmenin komşu kayıt, dil, yüzey, özellik veya kullanıcı yolunda yeni hata üretmesi.",
+      "records": [
+        "NGQ-064",
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Alan eşliği",
+      "definition": "Kimlik, hüküm, normatif güç, sürüm, tarih, kaynak, lisans ve sınır gibi bağlayıcı alanların yayın yüzeyleri arasında anlam bakımından aynı kalması.",
+      "records": [
+        "NGQ-065",
+        "NGQ-066"
+      ]
+    },
+    {
+      "term": "Kontrollü transkreasyon",
+      "definition": "Hedef dilde doğal bir metin kurarken atomik iddia, normatif güç, kaynak kapsamı, hukukî sınır ve makine alanı eşliğini koruyan aktarım.",
+      "records": [
+        "NGQ-066"
+      ]
+    },
+    {
+      "term": "Geriye dönük uyumluluk",
+      "definition": "Yeni sürümün tanımlı eski tüketici ve dosya davranışlarını bozmadan çalışabilmesi.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Kırıcı değişiklik",
+      "definition": "Mevcut alanı, normu, sözleşmeyi veya tüketici davranışını uyumsuz kılan değişiklik.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Migration map / geçiş eşlemesi",
+      "definition": "Eski ve yeni alan, değer, kural ve dosya yapıları arasındaki dönüşümü açıklayan sürümlü eşleme.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Deprecation / kullanımdan kaldırma",
+      "definition": "Bir alan veya sürümün uyarı, alternatif, destek süresi ve kaldırma tarihiyle kontrollü biçimde kullanımdan çıkarılması.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Canonicalization package",
+      "definition": "Belirli yayın sürümünün kimliğini, kanonik adresini, DOI ilişkilerini, dosyalarını, hash'lerini, lisansını ve arşiv aynalarını tek manifestte bağlayan paket.",
+      "records": [
+        "NGQ-068"
+      ]
+    },
+    {
+      "term": "Dosya bütünlük hash'i",
+      "definition": "Belirli algoritmayla hesaplanan ve karşılaştırılan byte dizisinin değişip değişmediğini sınamaya yarayan özet değer.",
+      "records": [
+        "NGQ-064",
+        "NGQ-068"
+      ]
+    },
+    {
+      "term": "Uygunluk beyanı",
+      "definition": "Denetlenen kayıt, dil, yüzey, sistem, sürüm, tarih, kapı, istisna, denetim türü ve karar sahibini açıkça gösteren sonuç kaydı.",
+      "records": [
+        "NGQ-063",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Emanet ve bakım",
+      "definition": "Eserin kurucu niyetini, erişimini, sürüm geçmişini ve son geçerli durumunu kişi veya kurum değişiminde koruyan düzen.",
+      "records": [
+        "NGQ-068",
+        "NGQ-069"
+      ]
+    }
+  ]
+}

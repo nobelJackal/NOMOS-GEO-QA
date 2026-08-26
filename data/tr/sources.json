@@ -1,0 +1,457 @@
+{
+  "registry": "NOMOS GEO-QA — Canonical Question Registry",
+  "version": "0.3.1",
+  "status": "FOUNDER_EDITION_RELEASED",
+  "language": "tr",
+  "canonical": "https://noblejackal.com/tr/nomos-geo-qa/sources/",
+  "sources": [
+    {
+      "id": "S01",
+      "source": "Aggarwal ve diğerleri, *GEO: Generative Engine Optimization*",
+      "class": "Araştırma",
+      "records": "NGQ-001, 003, 012, 013",
+      "url": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "id": "S02",
+      "source": "Google Search Central, *SEO Starter Guide*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-001, 003, 010, 013",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    },
+    {
+      "id": "S03",
+      "source": "Google Search Central, *Overview of Crawling and Indexing*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-010, 011, 016, 017",
+      "url": "https://developers.google.com/search/docs/crawling-indexing"
+    },
+    {
+      "id": "S04",
+      "source": "Google Search Central, *Block Search Indexing with noindex*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-016, 017",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing"
+    },
+    {
+      "id": "S05",
+      "source": "Google Search Central, *Introduction to Structured Data*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-018, 019",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+    },
+    {
+      "id": "S06",
+      "source": "Google Search Central, *General Structured Data Guidelines*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-018, 019",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
+    },
+    {
+      "id": "S07",
+      "source": "W3C, *JSON-LD 1.1*",
+      "class": "Standart",
+      "records": "NGQ-018, 019, 020",
+      "url": "https://www.w3.org/TR/json-ld11/"
+    },
+    {
+      "id": "S08",
+      "source": "Schema.org, *Data Model*",
+      "class": "Standart/topluluk sözlüğü",
+      "records": "NGQ-004, 018–024",
+      "url": "https://schema.org/docs/datamodel.html"
+    },
+    {
+      "id": "S09",
+      "source": "OpenAI, *Overview of OpenAI Crawlers*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-016",
+      "url": "https://developers.openai.com/api/docs/bots"
+    },
+    {
+      "id": "S10",
+      "source": "Anthropic, *Does Anthropic Crawl Data from the Web?*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-016",
+      "url": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler"
+    },
+    {
+      "id": "S11",
+      "source": "Google Search Central, *Canonicalization*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-019–021",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+    },
+    {
+      "id": "S12",
+      "source": "ORCID, *ORCID Trust*",
+      "class": "Kimlik altyapısı",
+      "records": "NGQ-020–023",
+      "url": "https://info.orcid.org/orcid-trust/"
+    },
+    {
+      "id": "S13",
+      "source": "ROR, *ROR Data Structure*",
+      "class": "Kimlik altyapısı",
+      "records": "NGQ-020–023",
+      "url": "https://ror.readme.io/docs/ror-data-structure"
+    },
+    {
+      "id": "S14",
+      "source": "DataCite, *Versioning*",
+      "class": "Kimlik altyapısı",
+      "records": "NGQ-020–022",
+      "url": "https://support.datacite.org/docs/versioning"
+    },
+    {
+      "id": "S15",
+      "source": "DataCite, *Connecting Versions with Related Identifiers*",
+      "class": "Kimlik altyapısı",
+      "records": "NGQ-020–022",
+      "url": "https://support.datacite.org/docs/connecting-versions-with-related-identifiers"
+    },
+    {
+      "id": "S16",
+      "source": "IETF, RFC 5646, *Tags for Identifying Languages*",
+      "class": "Standart",
+      "records": "NGQ-022",
+      "url": "https://www.rfc-editor.org/info/rfc5646/"
+    },
+    {
+      "id": "S17",
+      "source": "Wikidata, *Help: Statements*",
+      "class": "Kimlik altyapısı",
+      "records": "NGQ-023",
+      "url": "https://www.wikidata.org/wiki/Help:Statements/en"
+    },
+    {
+      "id": "S18",
+      "source": "WIPO, *Trademarks*",
+      "class": "Resmî kurum",
+      "records": "NGQ-024",
+      "url": "https://www.wipo.int/en/web/trademarks"
+    },
+    {
+      "id": "S19",
+      "source": "T.C. Ticaret Bakanlığı, *Şirketler ve Ticaret Sicili Mevzuatı*",
+      "class": "Resmî kurum",
+      "records": "NGQ-025–029",
+      "url": "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/sirketler-ve-ticaret-sicili"
+    },
+    {
+      "id": "S20",
+      "source": "T.C. Ticaret Bakanlığı, *Ticaret Sicili*",
+      "class": "Resmî kurum",
+      "records": "NGQ-025–029",
+      "url": "https://ticaret.gov.tr/ic-ticaret/ticaret-sicili"
+    },
+    {
+      "id": "S21",
+      "source": "6102 sayılı Türk Ticaret Kanunu, Bakanlık PDF kaydı",
+      "class": "Resmî kurum",
+      "records": "NGQ-025–028",
+      "url": "https://ticaret.gov.tr/data/5d419b8013b87639ac9e00cd/17d7c7108dae78d14a3f220b519f98f6.pdf"
+    },
+    {
+      "id": "S22",
+      "source": "T.C. Ticaret Bakanlığı, *MERSİS*",
+      "class": "Resmî kurum",
+      "records": "NGQ-025–030",
+      "url": "https://ticaret.gov.tr/ic-ticaret/ticaret-sicili/merkezi-sicil-kayit-sistemi-mersis"
+    },
+    {
+      "id": "S23",
+      "source": "BTK, *Elektronik İmza — Genel Bilgi*",
+      "class": "Resmî kurum",
+      "records": "NGQ-026, 027, 032, 033",
+      "url": "https://btk.gov.tr/elektronik-imza-genel-bilgi"
+    },
+    {
+      "id": "S24",
+      "source": "NIST SP 800-63-4, *Digital Identity Guidelines*",
+      "class": "Standart",
+      "records": "NGQ-028–033",
+      "url": "https://csrc.nist.gov/pubs/sp/800/63/4/final"
+    },
+    {
+      "id": "S25",
+      "source": "NIST SP 800-63B-4, *Authentication and Authenticator Management*",
+      "class": "Standart",
+      "records": "NGQ-028–031",
+      "url": "https://pages.nist.gov/800-63-4/sp800-63b.html"
+    },
+    {
+      "id": "S26",
+      "source": "NIST SP 800-53 Rev. 5, *Security and Privacy Controls*",
+      "class": "Standart",
+      "records": "NGQ-028–033",
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    },
+    {
+      "id": "S27",
+      "source": "IETF, RFC 7644, *System for Cross-domain Identity Management: Protocol*",
+      "class": "Standart",
+      "records": "NGQ-028–030",
+      "url": "https://www.rfc-editor.org/info/rfc7644/"
+    },
+    {
+      "id": "S28",
+      "source": "IETF, RFC 9967, *SCIM Roles and Entitlements Extension*",
+      "class": "Standart",
+      "records": "NGQ-028–030",
+      "url": "https://www.rfc-editor.org/info/rfc9967/"
+    },
+    {
+      "id": "S29",
+      "source": "Microsoft Learn, *Application and Service Principal Objects in Microsoft Entra ID*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-030–032",
+      "url": "https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals"
+    },
+    {
+      "id": "S30",
+      "source": "Microsoft Learn, *Managed Identities for Azure Resources*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-030–032",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview"
+    },
+    {
+      "id": "S31",
+      "source": "Google Cloud, *Identities for Workloads*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-030–032",
+      "url": "https://docs.cloud.google.com/iam/docs/workload-identities"
+    },
+    {
+      "id": "S32",
+      "source": "AWS IAM, *Temporary Credentials with AWS Resources*",
+      "class": "Sağlayıcı",
+      "records": "NGQ-030–032",
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html"
+    },
+    {
+      "id": "S33",
+      "source": "IETF, RFC 6749, *The OAuth 2.0 Authorization Framework*",
+      "class": "Standart",
+      "records": "NGQ-031, 032",
+      "url": "https://www.rfc-editor.org/info/rfc6749/"
+    },
+    {
+      "id": "S34",
+      "source": "IETF, RFC 8693, *OAuth 2.0 Token Exchange*",
+      "class": "Standart",
+      "records": "NGQ-032, 033",
+      "url": "https://www.rfc-editor.org/info/rfc8693/"
+    },
+    {
+      "id": "S35",
+      "source": "W3C, *PROV-O: The PROV Ontology*",
+      "class": "Standart",
+      "records": "NGQ-021, 029, 032, 033",
+      "url": "https://www.w3.org/TR/prov-o/"
+    },
+    {
+      "id": "S36",
+      "source": "W3C, *Trace Context*",
+      "class": "Standart",
+      "records": "NGQ-029, 033",
+      "url": "https://www.w3.org/TR/trace-context/"
+    },
+    {
+      "id": "S37",
+      "source": "OpenTelemetry, *General Trace Semantic Conventions*",
+      "class": "Standart/proje belgesi",
+      "records": "NGQ-029, 033",
+      "url": "https://opentelemetry.io/docs/specs/semconv/general/trace/"
+    },
+    {
+      "id": "S38",
+      "source": "NIST AI 600-1, *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*",
+      "class": "Standart niteliğinde gönüllü kurum rehberi",
+      "records": "NGQ-052, 056–058",
+      "url": "https://doi.org/10.6028/NIST.AI.600-1"
+    },
+    {
+      "id": "S39",
+      "source": "NIST AI 100-2 E2025, *Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations*",
+      "class": "Standart niteliğinde gönüllü kurum rehberi",
+      "records": "NGQ-053–055",
+      "url": "https://doi.org/10.6028/NIST.AI.100-2e2025"
+    },
+    {
+      "id": "S40",
+      "source": "OWASP GenAI Security Project, *LLM01:2025 Prompt Injection*",
+      "class": "Açık güvenlik proje rehberi",
+      "records": "NGQ-053",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+    },
+    {
+      "id": "S41",
+      "source": "NCSC ve ortak kurumlar, *Guidelines for Secure AI System Development*",
+      "class": "Çok kurumlu resmî güvenlik rehberi",
+      "records": "NGQ-052–058",
+      "url": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines"
+    },
+    {
+      "id": "S42",
+      "source": "NIST SP 800-61 Rev. 3, *Incident Response Recommendations and Considerations for Cybersecurity Risk Management*",
+      "class": "Standart niteliğinde gönüllü kurum rehberi",
+      "records": "NGQ-052, 058",
+      "url": "https://doi.org/10.6028/NIST.SP.800-61r3"
+    },
+    {
+      "id": "S43",
+      "source": "NIST SP 800-161 Rev. 1 Update 1, *Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations*",
+      "class": "Standart niteliğinde gönüllü kurum rehberi",
+      "records": "NGQ-054, 057",
+      "url": "https://doi.org/10.6028/NIST.SP.800-161r1-upd1"
+    },
+    {
+      "id": "S44",
+      "source": "NIST, *AI Risk Management Framework Playbook* ve AI RMF Core",
+      "class": "Gönüllü uygulama rehberi",
+      "records": "NGQ-052–058",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/"
+    },
+    {
+      "id": "S45",
+      "source": "Avrupa Birliği, Regulation (EU) 2024/1689 — *Artificial Intelligence Act*",
+      "class": "Mevzuat",
+      "records": "NGQ-052, 055, 057, 058",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "id": "S46",
+      "source": "European Data Protection Board, *Opinion 28/2024 on Certain Data Protection Aspects Related to the Processing of Personal Data in the Context of AI Models*",
+      "class": "Resmî kurul görüşü",
+      "records": "NGQ-056",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en"
+    },
+    {
+      "id": "S47",
+      "source": "NIST, *Privacy Framework 1.0: A Tool for Improving Privacy through Enterprise Risk Management*",
+      "class": "Gönüllü gizlilik risk çerçevesi",
+      "records": "NGQ-056, 057",
+      "url": "https://doi.org/10.6028/NIST.CSWP.01162020"
+    },
+    {
+      "id": "S48",
+      "source": "Avrupa Birliği, Regulation (EU) 2016/679 — *General Data Protection Regulation*",
+      "class": "Mevzuat",
+      "records": "NGQ-056, 058",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "id": "S49",
+      "source": "Kişisel Verileri Koruma Kurumu, 6698 sayılı *Kişisel Verilerin Korunması Kanunu*",
+      "class": "Resmî kurum/mevzuat",
+      "records": "NGQ-056, 058",
+      "url": "https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law"
+    },
+    {
+      "id": "S50",
+      "source": "NIST AI 100-1, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*",
+      "class": "Standart niteliğinde gönüllü kurum çerçevesi",
+      "records": "NGQ-059–NGQ-064",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1"
+    },
+    {
+      "id": "S51",
+      "source": "NIST/SEMATECH, *e-Handbook of Statistical Methods*",
+      "class": "Resmî kurum teknik el kitabı",
+      "records": "NGQ-060, NGQ-062",
+      "url": "https://www.itl.nist.gov/div898/handbook/"
+    },
+    {
+      "id": "S52",
+      "source": "NIST CSWP 31, *Proxy Validation and Verification for Critical AI Systems: A Proxy Design Process*",
+      "class": "Resmî kurum teknik beyaz kitabı",
+      "records": "NGQ-060, NGQ-063, NGQ-064",
+      "url": "https://doi.org/10.6028/NIST.CSWP.31"
+    },
+    {
+      "id": "S53",
+      "source": "JSON Schema, *Specification — Draft 2020-12*",
+      "class": "Açık teknik belirtim",
+      "records": "NGQ-065, NGQ-067",
+      "url": "https://json-schema.org/specification"
+    },
+    {
+      "id": "S54",
+      "source": "*Semantic Versioning 2.0.0*",
+      "class": "Açık sürümleme belirtimi",
+      "records": "NGQ-067",
+      "url": "https://semver.org/spec/v2.0.0.html"
+    },
+    {
+      "id": "S55",
+      "source": "DOI Foundation, *DOI Handbook*",
+      "class": "Kalıcı tanımlayıcı resmî el kitabı",
+      "records": "NGQ-068",
+      "url": "https://www.doi.org/doi-handbook/html/"
+    },
+    {
+      "id": "S56",
+      "source": "NIST FIPS 180-4, *Secure Hash Standard*",
+      "class": "Resmî standart",
+      "records": "NGQ-068",
+      "url": "https://doi.org/10.6028/NIST.FIPS.180-4"
+    },
+    {
+      "id": "S57",
+      "source": "W3C Internationalization, *Declaring Language in HTML*",
+      "class": "W3C uygulama rehberi",
+      "records": "NGQ-066",
+      "url": "https://www.w3.org/International/questions/qa-html-language-declarations"
+    },
+    {
+      "id": "S58",
+      "source": "Zenodo, *About Records*",
+      "class": "Resmî repository belgesi",
+      "records": "NGQ-067, NGQ-068",
+      "url": "https://help.zenodo.org/docs/deposit/about-records/"
+    },
+    {
+      "id": "S59",
+      "source": "Creative Commons, *About CC Licenses* ve License Chooser",
+      "class": "Lisans sağlayıcısının resmî belgesi",
+      "records": "NGQ-068, NGQ-069",
+      "url": "https://creativecommons.org/share-your-work/cclicenses/"
+    },
+    {
+      "id": "S60",
+      "source": "IETF BCP 14 / RFC 8174, *Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words*",
+      "class": "Standart",
+      "records": "NGQ-066, NGQ-069",
+      "url": "https://www.rfc-editor.org/info/rfc8174"
+    },
+    {
+      "id": "S61",
+      "source": "Council of Europe, *Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law* (CETS No. 225)",
+      "class": "Uluslararası sözleşme/resmî kurum",
+      "records": "NGQ-037–039, NGQ-051",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence"
+    },
+    {
+      "id": "S62",
+      "source": "European Data Protection Board, *Guidelines on Automated Individual Decision-Making and Profiling for the Purposes of Regulation 2016/679*",
+      "class": "Resmî kurul rehberi",
+      "records": "NGQ-034–039, NGQ-047–051",
+      "url": "https://www.edpb.europa.eu/documents/guideline/automated-decision-making-and-profiling_en"
+    },
+    {
+      "id": "S63",
+      "source": "NIST SP 800-88 Rev. 2, *Guidelines for Media Sanitization*",
+      "class": "Resmî standart niteliğinde kurum rehberi",
+      "records": "NGQ-047, NGQ-048",
+      "url": "https://doi.org/10.6028/NIST.SP.800-88r2"
+    },
+    {
+      "id": "S64",
+      "source": "Kişisel Verileri Koruma Kurumu, *Kişisel Verilerin Silinmesi, Yok Edilmesi veya Anonim Hale Getirilmesi Hakkında Yönetmelik*",
+      "class": "Resmî kurum/mevzuat",
+      "records": "NGQ-047–050",
+      "url": "https://www.kvkk.gov.tr/Icerik/5441/KISISEL-VERILERIN-SILINMESI-YOK-EDILMESI-VEYA-ANONIM-HALE-GETIRILMESI-HAKKINDA-YONETMELIK"
+    }
+  ]
+}

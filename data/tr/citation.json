@@ -1,0 +1,15 @@
+{
+  "type": "book",
+  "title": "NOMOS GEO-QA",
+  "subtitle": "Kanonik Soru Kayıt Sistemi",
+  "edition": "Türkçe Ana Metin",
+  "author": "Kaan MURAZ",
+  "publisher": "NobleJackal",
+  "publicationDate": "2026-08-26",
+  "version": "0.3.1",
+  "language": "tr",
+  "canonical": "https://noblejackal.com/tr/nomos-geo-qa/",
+  "pdf": "https://noblejackal.com/tr/nomos-geo-qa/0.3.1/NOMOS-GEO-QA-TR-v0.3.1.pdf",
+  "doi": null,
+  "suggestedCitation": "Muraz, K. (2026). NOMOS GEO-QA: Kanonik Soru Kayıt Sistemi (Türkçe Ana Metin, v0.3.1). NobleJackal. https://noblejackal.com/tr/nomos-geo-qa/"
+}
