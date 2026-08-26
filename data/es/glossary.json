@@ -1,0 +1,802 @@
+{
+  "registry": "NOMOS GEO-QA — Canonical Question Registry",
+  "version": "0.3.1",
+  "status": "FOUNDER_EDITION_RELEASED",
+  "language": "es",
+  "canonical": "https://noblejackal.com/es/nomos-geo-qa/glossary/",
+  "terms": [
+    {
+      "term": "Sistema de IA",
+      "definition": "Sistema basado en inteligencia artificial que recibe una entrada y produce una predicción, clasificación, contenido o acción. No designa un producto o modelo concreto.",
+      "records": [
+        "NGQ-001",
+        "NGQ-010",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Sistema generativo",
+      "definition": "Sistema capaz de producir texto, imágenes, audio, código u otra salida en respuesta a una petición del usuario.",
+      "records": [
+        "NGQ-001",
+        "NGQ-003",
+        "NGQ-005"
+      ]
+    },
+    {
+      "term": "GEO",
+      "definition": "En esta obra, disciplina que mejora de forma medible las condiciones para que una entidad sea encontrada, vinculada con pruebas y representada con exactitud en sistemas generativos.",
+      "records": [
+        "NGQ-001",
+        "NGQ-003",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Entidad",
+      "definition": "Persona, organización, marca, producto, servicio, lugar, obra, acontecimiento o concepto que debe distinguirse de otras personas o cosas.",
+      "records": [
+        "NGQ-004",
+        "NGQ-020",
+        "NGQ-023"
+      ]
+    },
+    {
+      "term": "Representación digital",
+      "definition": "Significado que un sistema digital construye sobre una entidad a partir de su identidad, atributos, relaciones, límites, pruebas e información temporal.",
+      "records": [
+        "NGQ-005",
+        "NGQ-006",
+        "NGQ-014"
+      ]
+    },
+    {
+      "term": "Mención",
+      "definition": "Aparición del nombre o de un marcador explícito de identidad de una entidad en una respuesta.",
+      "records": [
+        "NGQ-002",
+        "NGQ-006",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Cita",
+      "definition": "Referencia visible a una fuente dentro de una respuesta. Debe comprobarse por separado si esa fuente respalda realmente la afirmación pertinente.",
+      "records": [
+        "NGQ-006",
+        "NGQ-007",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Recomendación",
+      "definition": "Presentación de una entidad al usuario como una opción adecuada.",
+      "records": [
+        "NGQ-006",
+        "NGQ-013"
+      ]
+    },
+    {
+      "term": "Afirmación",
+      "definition": "Oración factual o parte de ella que puede evaluarse como verdadera, falsa, incompleta o incierta.",
+      "records": [
+        "NGQ-007",
+        "NGQ-015"
+      ]
+    },
+    {
+      "term": "Fuente",
+      "definition": "Documento, registro, página, base de datos u otra superficie de publicación de la que procede la información.",
+      "records": [
+        "NGQ-007",
+        "NGQ-008",
+        "NGQ-009"
+      ]
+    },
+    {
+      "term": "Prueba",
+      "definition": "Registro verificable que respalda de verdad una afirmación concreta dentro de un alcance y un tiempo determinados.",
+      "records": [
+        "NGQ-007",
+        "NGQ-008",
+        "NGQ-015"
+      ]
+    },
+    {
+      "term": "Fuente primaria",
+      "definition": "Registro original conectado directamente con el hecho, la decisión o la información producida.",
+      "records": [
+        "NGQ-008"
+      ]
+    },
+    {
+      "term": "Prueba independiente",
+      "definition": "Verificación aportada por una fuente institucional o metodológicamente separada de quien formula la afirmación.",
+      "records": [
+        "NGQ-008",
+        "NGQ-009"
+      ]
+    },
+    {
+      "term": "Recuperación",
+      "definition": "Proceso mediante el cual un sistema encuentra y selecciona información o fuentes que puede utilizar para una pregunta concreta.",
+      "records": [
+        "NGQ-010",
+        "NGQ-011",
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Rastreo",
+      "definition": "Descubrimiento de una URL por una herramienta automatizada, su solicitud y el intento de obtener el contenido servido.",
+      "records": [
+        "NGQ-016",
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Indexación",
+      "definition": "Análisis del contenido recuperado y su conversión en un registro utilizable por un sistema de búsqueda o recuperación.",
+      "records": [
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Datos estructurados",
+      "definition": "Marcado que explica a las máquinas la información de una página mediante campos y relaciones definidos.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019"
+      ]
+    },
+    {
+      "term": "JSON",
+      "definition": "Formato de texto que transporta datos en una estructura ordenada de claves y valores.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019"
+      ]
+    },
+    {
+      "term": "JSON-LD",
+      "definition": "Forma de expresar mediante JSON significado de datos enlazados sobre entidades y relaciones.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019",
+        "NGQ-020"
+      ]
+    },
+    {
+      "term": "URL canónica",
+      "definition": "Señal que identifica la dirección de página preferida entre URL parecidas o duplicadas.",
+      "records": [
+        "NGQ-017",
+        "NGQ-019",
+        "NGQ-020"
+      ]
+    },
+    {
+      "term": "Registro canónico de identidad",
+      "definition": "Registro principal propuesto por NOMOS GEO para gestionar la identidad estable, los nombres, las relaciones, el estado y los vínculos probatorios de una entidad.",
+      "records": [
+        "NGQ-020",
+        "NGQ-021",
+        "NGQ-022"
+      ]
+    },
+    {
+      "term": "Nombre canónico",
+      "definition": "Nombre principal preferido dentro de un registro y contexto de uso definidos.",
+      "records": [
+        "NGQ-022"
+      ]
+    },
+    {
+      "term": "Nombre alternativo",
+      "definition": "Nombre válido de la misma entidad distinto del nombre principal.",
+      "records": [
+        "NGQ-022",
+        "NGQ-023"
+      ]
+    },
+    {
+      "term": "Resolución de entidades",
+      "definition": "Proceso de determinar qué entidad real designa un nombre o registro.",
+      "records": [
+        "NGQ-004",
+        "NGQ-023",
+        "NGQ-024"
+      ]
+    },
+    {
+      "term": "Función",
+      "definition": "Función o relación de una persona o identidad dentro de una organización. Una función no confiere automáticamente todas las facultades.",
+      "records": [
+        "NGQ-025",
+        "NGQ-028"
+      ]
+    },
+    {
+      "term": "Autoridad",
+      "definition": "Permiso o poder jurídico para realizar una acción concreta bajo un alcance y unas condiciones definidos.",
+      "records": [
+        "NGQ-025",
+        "NGQ-026",
+        "NGQ-027"
+      ]
+    },
+    {
+      "term": "Delegación",
+      "definition": "Transferencia por una parte de una porción definida de su autoridad a otro actor, sujeta a límites y duración.",
+      "records": [
+        "NGQ-026",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Cuenta huérfana",
+      "definition": "Cuenta que sigue existiendo, pero carece de propietario o responsable actual.",
+      "records": [
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Permiso en la sombra",
+      "definition": "Permiso que no aparece explícitamente en el registro formal de funciones, pero puede utilizarse en la práctica por otra vía.",
+      "records": [
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Acceso residual",
+      "definition": "Acceso que permanece activo después de terminar la tarea o la necesidad.",
+      "records": [
+        "NGQ-028",
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Cuenta de servicio",
+      "definition": "Cuenta utilizada para ejecutar una carga de trabajo no humana.",
+      "records": [
+        "NGQ-030",
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "Entidad de servicio",
+      "definition": "En Microsoft Entra, objeto que representa una instancia de aplicación o servicio como identidad de seguridad.",
+      "records": [
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "Identidad administrada",
+      "definition": "Identidad de carga de trabajo cuyo ciclo de vida de credenciales gestiona un proveedor de nube.",
+      "records": [
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "Identidad de agente de IA",
+      "definition": "Identidad que distingue a un agente de IA con finalidad, patrocinador, herramientas, permisos e historial de acciones definidos.",
+      "records": [
+        "NGQ-031",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Actor técnico",
+      "definition": "Identidad humana, de aplicación, carga de trabajo o agente que realiza efectivamente una acción en un sistema.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Sujeto representado",
+      "definition": "Persona u organización en cuyo nombre o beneficio se realiza una acción.",
+      "records": [
+        "NGQ-032"
+      ]
+    },
+    {
+      "term": "Iniciador",
+      "definition": "Primer actor o evento definido que da origen a una acción o propuesta de acción.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Aprobador",
+      "definition": "Parte autorizada que permite una acción para un contenido, destino, alcance y duración definidos.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Ejecutor",
+      "definition": "Actor que realiza técnicamente una acción aprobada o autorizada de otro modo.",
+      "records": [
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Procedencia",
+      "definition": "Cadena de relaciones que muestra quién produjo un registro o acción, a partir de qué entradas, en qué momento y mediante qué proceso.",
+      "records": [
+        "NGQ-015",
+        "NGQ-029",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Identificador de traza",
+      "definition": "Identificador que agrupa eventos técnicos relacionados dentro de una traza de un sistema distribuido. Por sí solo no demuestra autoridad ni exactitud.",
+      "records": [
+        "NGQ-029",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Aprobación humana",
+      "definition": "Permiso para una acción concreta concedido por una persona autorizada que comprende qué se aprueba, por qué y con qué consecuencia.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035",
+        "NGQ-052",
+        "NGQ-055"
+      ]
+    },
+    {
+      "term": "Aprobación informada",
+      "definition": "Aprobación que no se concede antes de presentar la finalidad, el alcance, los riesgos, las alternativas y las consecuencias relevantes de la decisión.",
+      "records": [
+        "NGQ-034",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Aprobación específica de la acción",
+      "definition": "Aprobación limitada a una operación con destino, alcance, efecto y momento definidos.",
+      "records": [
+        "NGQ-034",
+        "NGQ-038",
+        "NGQ-055"
+      ]
+    },
+    {
+      "term": "Supervisión humana significativa",
+      "definition": "Supervisión en la que una persona hace algo más que aparecer en pantalla: puede revisar, cuestionar, detener y cambiar el resultado.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Sesgo de automatización",
+      "definition": "Tendencia a considerar una salida automatizada o de IA más exacta de lo justificado solo porque la produjo un sistema.",
+      "records": [
+        "NGQ-035",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Decisión de mero trámite",
+      "definition": "Decisión formal que parece contar con aprobación humana, pero carece de revisión, comprensión o capacidad real de cambiar el resultado.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035"
+      ]
+    },
+    {
+      "term": "Fatiga de aprobación",
+      "definition": "Erosión de la atención humana y la calidad de decisión causada por solicitudes de aprobación demasiado frecuentes, confusas o innecesarias.",
+      "records": [
+        "NGQ-035"
+      ]
+    },
+    {
+      "term": "Separación de funciones",
+      "definition": "Condición según la cual la autoridad para preparar, aprobar, ejecutar y cerrar una operación crítica no se concentra indebidamente en una sola parte.",
+      "records": [
+        "NGQ-034",
+        "NGQ-038",
+        "NGQ-039",
+        "NGQ-052",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Traza de decisión",
+      "definition": "Cadena de registros que conecta entrada, versión del sistema, recomendación, revisión humana, aprobación, aplicación y resultado de una decisión.",
+      "records": [
+        "NGQ-037",
+        "NGQ-041",
+        "NGQ-044"
+      ]
+    },
+    {
+      "term": "Vía de impugnación",
+      "definition": "Proceso definido mediante el cual una persona afectada puede comprender y corregir una decisión y obtener nueva revisión de una persona autorizada u órgano independiente.",
+      "records": [
+        "NGQ-036",
+        "NGQ-037",
+        "NGQ-039",
+        "NGQ-040"
+      ]
+    },
+    {
+      "term": "Decisión de alto impacto",
+      "definition": "Decisión capaz de afectar de forma relevante a derechos, seguridad, sustento, servicios esenciales, reputación u oportunidades importantes de una persona.",
+      "records": [
+        "NGQ-036",
+        "NGQ-037",
+        "NGQ-038",
+        "NGQ-040"
+      ]
+    },
+    {
+      "term": "Ciclo de vida de la decisión",
+      "definition": "Todas las fases de una decisión: inicio, recopilación de datos, producción, revisión, aprobación, aplicación, notificación, impugnación, corrección y cierre.",
+      "records": [
+        "NGQ-041",
+        "NGQ-044"
+      ]
+    },
+    {
+      "term": "Reevaluación retrospectiva",
+      "definition": "Nueva revisión de decisiones pasadas dentro de un alcance definido cuando un sistema o sus condiciones cambian y crean un riesgo nuevo.",
+      "records": [
+        "NGQ-042",
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Exactitud histórica",
+      "definition": "Grado en que un registro refleja con exactitud la información y las reglas aplicables cuando se creó.",
+      "records": [
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Vigencia actual",
+      "definition": "Si una decisión o información correcta en el pasado sigue siendo válida para utilizarla hoy.",
+      "records": [
+        "NGQ-042",
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Registro de solo anexión",
+      "definition": "Modelo de registro en el que los eventos anteriores no se sobrescriben en silencio y los estados nuevos se añaden como eventos separados y ordenados.",
+      "records": [
+        "NGQ-044",
+        "NGQ-045"
+      ]
+    },
+    {
+      "term": "Recibo de propagación",
+      "definition": "Prueba que muestra cuándo una corrección o restricción llegó a un sistema posterior y cómo se aplicó allí.",
+      "records": [
+        "NGQ-045",
+        "NGQ-046",
+        "NGQ-049"
+      ]
+    },
+    {
+      "term": "Riesgo de reaparición",
+      "definition": "Riesgo de que datos eliminados, corregidos o restringidos reaparezcan desde una caché, copia de seguridad, exportación o memoria de modelo.",
+      "records": [
+        "NGQ-046",
+        "NGQ-047",
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Eliminación",
+      "definition": "Retirada de datos de una superficie activa o de almacenamiento definida para que no puedan recuperarse ni utilizarse; el alcance exacto se declara según el contexto técnico y jurídico.",
+      "records": [
+        "NGQ-046",
+        "NGQ-047",
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Retención legal",
+      "definition": "Obligación limitada y registrada de conservación que suspende la eliminación ordinaria por una necesidad jurídica o de preservación de pruebas concreta.",
+      "records": [
+        "NGQ-047"
+      ]
+    },
+    {
+      "term": "Saneamiento de soportes",
+      "definition": "Proceso de hacer inaccesible la información de un soporte de almacenamiento bajo condiciones definidas de amenaza y reutilización.",
+      "records": [
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Desaprendizaje automático",
+      "definition": "Proceso técnico destinado a reducir o eliminar la influencia de datos de entrenamiento concretos sobre el comportamiento de un modelo; no equivale a eliminar un registro.",
+      "records": [
+        "NGQ-048",
+        "NGQ-049",
+        "NGQ-050"
+      ]
+    },
+    {
+      "term": "Restricción de no uso",
+      "definition": "Control temporal que impide que datos concretos entren en recuperación, decisiones, entrenamiento, recomendaciones o uso de herramientas mientras la eliminación o el desaprendizaje sigan incompletos.",
+      "records": [
+        "NGQ-049",
+        "NGQ-050"
+      ]
+    },
+    {
+      "term": "Barrera de liberación",
+      "definition": "Control que exige pruebas definidas y aprobación humana antes de volver a utilizar datos, un modelo o una función.",
+      "records": [
+        "NGQ-050",
+        "NGQ-052"
+      ]
+    },
+    {
+      "term": "Estado pendiente",
+      "definition": "Estado temporal en el que no se tomó una decisión final, pero deben registrarse responsable, motivo, siguiente paso, plazo y vía de escalado.",
+      "records": [
+        "NGQ-051"
+      ]
+    },
+    {
+      "term": "Parada segura",
+      "definition": "Proceso registrado de parada que interrumpe un riesgo definido, limita el alcance afectado, conserva pruebas y considera opciones seguras de servicio.",
+      "records": [
+        "NGQ-052",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Barrera de reinicio",
+      "definition": "Control que impide reabrir un sistema hasta completar causa raíz, subsanación, pruebas, aprobación humana y preparación para la reversión.",
+      "records": [
+        "NGQ-052"
+      ]
+    },
+    {
+      "term": "Inyección de instrucciones",
+      "definition": "Intento de una entrada de sacar a un sistema de IA de sus instrucciones, políticas o límites de autoridad previstos.",
+      "records": [
+        "NGQ-053"
+      ]
+    },
+    {
+      "term": "Inyección indirecta de instrucciones",
+      "definition": "Entrega de una instrucción maliciosa mediante contenido externo como una página web, documento, correo, imagen, salida de herramienta o fuente de recuperación.",
+      "records": [
+        "NGQ-053"
+      ]
+    },
+    {
+      "term": "Envenenamiento de fuentes",
+      "definition": "Contaminación de las fuentes de un entorno de recuperación o decisión de forma que desvíe al sistema.",
+      "records": [
+        "NGQ-054",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Consenso sintético",
+      "definition": "Apariencia de numerosas fuentes independientes y una opinión compartida creada por copias que proceden de la misma fuente.",
+      "records": [
+        "NGQ-054"
+      ]
+    },
+    {
+      "term": "Blanqueo de fuentes",
+      "definition": "Proceso por el que una afirmación débil o sin respaldo adquiere apariencia de credibilidad mediante cadenas de copias y citas.",
+      "records": [
+        "NGQ-054"
+      ]
+    },
+    {
+      "term": "Cadena de suministro de IA",
+      "definition": "Cadena de componentes externos formada por modelos, conjuntos de datos, API, complementos, herramientas, infraestructura y sus subdependencias.",
+      "records": [
+        "NGQ-057"
+      ]
+    },
+    {
+      "term": "Incidente de IA o representación",
+      "definition": "Evento en un sistema de IA o en su cadena conectada de publicación, datos y herramientas que causa daño relacionado con representación errónea, seguridad, privacidad, autoridad, servicio o integridad probatoria.",
+      "records": [
+        "NGQ-052",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Truth Pack",
+      "definition": "Paquete de pruebas versionado que vincula las afirmaciones atómicas, fuentes, conflictos, alcance, tiempo y juicios humanos utilizados como referencia de auditoría.",
+      "records": [
+        "NGQ-059",
+        "NGQ-061",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Verdad de referencia",
+      "definition": "Referencia de auditoría aceptada mediante un método probatorio adecuado para una entidad, alcance, tiempo y contexto de uso definidos.",
+      "records": [
+        "NGQ-059"
+      ]
+    },
+    {
+      "term": "Registro de preguntas",
+      "definition": "Conjunto de textos de preguntas, intenciones, clases de riesgo y condiciones de ejecución versionado antes de las pruebas.",
+      "records": [
+        "NGQ-060",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Afirmación atómica",
+      "definition": "Proposición relevante más pequeña que puede verificarse por sí sola o dejarse sin resolver.",
+      "records": [
+        "NGQ-059",
+        "NGQ-061",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Libro mayor de afirmaciones",
+      "definition": "Registro versionado que conserva para cada afirmación atómica sus vínculos con entidad, pruebas, resultado, gravedad, auditor, justificación e incertidumbre.",
+      "records": [
+        "NGQ-061"
+      ]
+    },
+    {
+      "term": "No compensación",
+      "definition": "Principio según el cual un fallo crítico no puede diluirse en la media de muchos éxitos de bajo impacto.",
+      "records": [
+        "NGQ-061",
+        "NGQ-064",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Variabilidad de salida",
+      "definition": "Variación de las salidas de IA entre momentos y repeticiones bajo condiciones iguales o parecidas.",
+      "records": [
+        "NGQ-060",
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Incertidumbre de medición",
+      "definition": "Incertidumbre de un resultado debida al muestreo, diferencias de condiciones, clasificación y límites metodológicos.",
+      "records": [
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Intervalo de confianza",
+      "definition": "Intervalo estadístico que resume la incertidumbre de medición de una estimación bajo supuestos declarados; no es la propia declaración de confianza del modelo.",
+      "records": [
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Independencia de auditoría",
+      "definition": "Condición de trabajo que protege el juicio del auditor frente a presiones indebidas, declara intereses e impide que apruebe en solitario su propio trabajo.",
+      "records": [
+        "NGQ-063",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Reproducibilidad",
+      "definition": "Capacidad de otro auditor suficientemente competente para reproducir razonablemente resultados seleccionados utilizando el mismo protocolo y las mismas pruebas.",
+      "records": [
+        "NGQ-041",
+        "NGQ-060",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Recibo de subsanación",
+      "definition": "Registro que vincula bajo un identificador el error, la causa raíz, el cambio, el despliegue, la verificación en producción, la nueva prueba, la regresión y las pruebas de cierre.",
+      "records": [
+        "NGQ-058",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Regresión",
+      "definition": "Error nuevo introducido por una corrección en un registro, idioma, superficie, función o recorrido de usuario adyacente.",
+      "records": [
+        "NGQ-064",
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Paridad de campos",
+      "definition": "Equivalencia material entre superficies de publicación de campos vinculantes como identidad, conclusión, fuerza normativa, versión, fecha, fuentes, licencia y límites.",
+      "records": [
+        "NGQ-065",
+        "NGQ-066"
+      ]
+    },
+    {
+      "term": "Transcreación controlada",
+      "definition": "Transferencia lingüística que crea texto natural en la lengua de destino conservando afirmaciones atómicas, fuerza normativa, alcance probatorio, límites jurídicos y paridad de campos para máquinas.",
+      "records": [
+        "NGQ-066"
+      ]
+    },
+    {
+      "term": "Compatibilidad hacia atrás",
+      "definition": "Capacidad de una publicación nueva para funcionar sin romper el comportamiento definido de consumidores y archivos antiguos.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Cambio incompatible",
+      "definition": "Cambio que vuelve incompatible un campo, norma, contrato o comportamiento de consumidor existente.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Mapa de migración",
+      "definition": "Correspondencia versionada que explica la transformación entre campos, valores, reglas y estructuras de archivo antiguos y nuevos.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Obsolescencia",
+      "definition": "Retirada controlada de un campo o publicación con advertencia, alternativa, periodo de soporte y fecha de eliminación.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Paquete de canonicalización",
+      "definition": "Paquete que vincula en un único manifiesto la identidad, dirección canónica, relaciones DOI, archivos, hashes, licencia y réplicas de archivo de una publicación.",
+      "records": [
+        "NGQ-068"
+      ]
+    },
+    {
+      "term": "Hash de integridad de archivo",
+      "definition": "Resumen calculado con un algoritmo definido para comprobar si cambió la secuencia de bytes comparada.",
+      "records": [
+        "NGQ-064",
+        "NGQ-068"
+      ]
+    },
+    {
+      "term": "Declaración de conformidad",
+      "definition": "Registro de resultado que indica explícitamente registros, idiomas, superficies, sistemas, versiones, fechas, barreras, excepciones, tipo de auditoría y responsable de decisión auditados.",
+      "records": [
+        "NGQ-063",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Custodia y mantenimiento",
+      "definition": "Disposición que conserva la intención fundadora, la accesibilidad, el historial de versiones y el último estado válido de la obra ante cambios de persona o institución.",
+      "records": [
+        "NGQ-068",
+        "NGQ-069"
+      ]
+    }
+  ]
+}
