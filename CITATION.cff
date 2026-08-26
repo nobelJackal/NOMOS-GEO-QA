@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "Please cite the language edition you used by its Zenodo DOI."
+title: "NOMOS GEO-QA v0.3.1 — Canonical Question Registry"
+type: dataset
+version: 0.3.1
+date-released: 2026-08-26
+authors:
+  - family-names: Muraz
+    given-names: Kaan
+    orcid: "https://orcid.org/0009-0000-2277-9009"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22108413"
+    description: "English edition"
+  - type: doi
+    value: "10.5281/zenodo.22108553"
+    description: "Turkish edition"
+  - type: doi
+    value: "10.5281/zenodo.22108628"
+    description: "German edition"
+  - type: doi
+    value: "10.5281/zenodo.22108667"
+    description: "Spanish edition"
+  - type: doi
+    value: "10.5281/zenodo.22108685"
+    description: "Russian edition"
+  - type: doi
+    value: "10.5281/zenodo.22108704"
+    description: "Arabic edition"
+repository-code: "https://github.com/nobelJackal/NOMOS-GEO-QA"
+url: "https://noblejackal.com/nomos-geo-qa/"
+abstract: >-
+  A six-language founder-proposed canonical question registry for evidence-led
+  representation governance and audit in generative systems. Publication does
+  not establish official or independently adopted industry-standard status.
+keywords:
+  - GEO
+  - generative engine optimization
+  - representation governance
+  - AI audit
+  - canonical question registry
+  - multilingual publishing
+  - citation readiness
+
