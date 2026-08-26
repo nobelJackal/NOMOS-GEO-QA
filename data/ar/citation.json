@@ -1,0 +1,15 @@
+{
+  "type": "book",
+  "title": "NOMOS GEO-QA",
+  "subtitle": "السجل المرجعي للأسئلة",
+  "edition": "الطبعة العربية",
+  "author": "Kaan MURAZ",
+  "publisher": "NobleJackal",
+  "publicationDate": "2026-08-26",
+  "version": "0.3.1",
+  "language": "ar",
+  "canonical": "https://noblejackal.com/ar/nomos-geo-qa/",
+  "pdf": "https://noblejackal.com/ar/nomos-geo-qa/0.3.1/NOMOS-GEO-QA-AR-v0.3.1.pdf",
+  "doi": null,
+  "suggestedCitation": "Muraz, K. (2026). NOMOS GEO-QA: السجل المرجعي للأسئلة (الطبعة العربية, v0.3.1). NobleJackal. https://noblejackal.com/ar/nomos-geo-qa/"
+}
