@@ -1,0 +1,15 @@
+{
+  "type": "book",
+  "title": "NOMOS GEO-QA",
+  "subtitle": "Kanonisches Fragenregister",
+  "edition": "Deutsche Ausgabe",
+  "author": "Kaan MURAZ",
+  "publisher": "NobleJackal",
+  "publicationDate": "2026-08-26",
+  "version": "0.3.1",
+  "language": "de",
+  "canonical": "https://noblejackal.com/de/nomos-geo-qa/",
+  "pdf": "https://noblejackal.com/de/nomos-geo-qa/0.3.1/NOMOS-GEO-QA-DE-v0.3.1.pdf",
+  "doi": null,
+  "suggestedCitation": "Muraz, K. (2026). NOMOS GEO-QA: Kanonisches Fragenregister (Deutsche Ausgabe, v0.3.1). NobleJackal. https://noblejackal.com/de/nomos-geo-qa/"
+}

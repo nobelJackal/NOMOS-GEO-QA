@@ -1,0 +1,802 @@
+{
+  "registry": "NOMOS GEO-QA — Canonical Question Registry",
+  "version": "0.3.1",
+  "status": "FOUNDER_EDITION_RELEASED",
+  "language": "de",
+  "canonical": "https://noblejackal.com/de/nomos-geo-qa/glossary/",
+  "terms": [
+    {
+      "term": "KI-System",
+      "definition": "Ein auf künstlicher Intelligenz beruhendes System, das Eingaben empfängt und Vorhersagen, Klassifizierungen, Inhalte oder Handlungen erzeugt. Gemeint ist kein bestimmtes Produkt oder Modell.",
+      "records": [
+        "NGQ-001",
+        "NGQ-010",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Generatives System",
+      "definition": "Ein System, das als Antwort auf eine Nutzeranfrage Text, Bilder, Audio, Code oder andere Ausgaben erzeugen kann.",
+      "records": [
+        "NGQ-001",
+        "NGQ-003",
+        "NGQ-005"
+      ]
+    },
+    {
+      "term": "GEO",
+      "definition": "In diesem Werk die Disziplin, die Bedingungen messbar zu verbessern, unter denen eine Entität in generativen Systemen gefunden, Belegen zugeordnet und korrekt repräsentiert werden kann.",
+      "records": [
+        "NGQ-001",
+        "NGQ-003",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Entität",
+      "definition": "Eine Person, Organisation, Marke, ein Produkt, eine Dienstleistung, ein Ort, Werk, Ereignis oder Begriff, der von anderen Personen oder Dingen unterschieden werden muss.",
+      "records": [
+        "NGQ-004",
+        "NGQ-020",
+        "NGQ-023"
+      ]
+    },
+    {
+      "term": "Digitale Repräsentation",
+      "definition": "Die Bedeutung, die ein digitales System aus Identität, Merkmalen, Beziehungen, Grenzen, Belegen und Zeitangaben über eine Entität erzeugt.",
+      "records": [
+        "NGQ-005",
+        "NGQ-006",
+        "NGQ-014"
+      ]
+    },
+    {
+      "term": "Erwähnung",
+      "definition": "Das Erscheinen des Namens oder eines ausdrücklichen Identitätsmerkmals einer Entität in einer Antwort.",
+      "records": [
+        "NGQ-002",
+        "NGQ-006",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Zitat",
+      "definition": "Ein sichtbarer Quellenverweis in einer Antwort. Ob die Quelle die betreffende Aussage tatsächlich stützt, muss getrennt geprüft werden.",
+      "records": [
+        "NGQ-006",
+        "NGQ-007",
+        "NGQ-012"
+      ]
+    },
+    {
+      "term": "Empfehlung",
+      "definition": "Darstellung einer Entität als geeignete Möglichkeit für den Nutzer.",
+      "records": [
+        "NGQ-006",
+        "NGQ-013"
+      ]
+    },
+    {
+      "term": "Aussage",
+      "definition": "Ein sachlicher Satz oder Satzteil, der als wahr, falsch, unvollständig oder unsicher bewertet werden kann.",
+      "records": [
+        "NGQ-007",
+        "NGQ-015"
+      ]
+    },
+    {
+      "term": "Quelle",
+      "definition": "Ein Dokument, Datensatz, eine Seite, Datenbank oder andere Publikationsoberfläche, aus der Information stammt.",
+      "records": [
+        "NGQ-007",
+        "NGQ-008",
+        "NGQ-009"
+      ]
+    },
+    {
+      "term": "Beleg",
+      "definition": "Ein verifizierbarer Nachweis, der eine bestimmte Aussage innerhalb eines bestimmten Umfangs und Zeitraums tatsächlich stützt.",
+      "records": [
+        "NGQ-007",
+        "NGQ-008",
+        "NGQ-015"
+      ]
+    },
+    {
+      "term": "Primärquelle",
+      "definition": "Ein ursprünglicher Datensatz, der unmittelbar mit dem erzeugten Ereignis, der Entscheidung oder Information verbunden ist.",
+      "records": [
+        "NGQ-008"
+      ]
+    },
+    {
+      "term": "Unabhängiger Beleg",
+      "definition": "Verifizierung durch eine Quelle, die institutionell oder methodisch von der behauptenden Partei getrennt ist.",
+      "records": [
+        "NGQ-008",
+        "NGQ-009"
+      ]
+    },
+    {
+      "term": "Informationsabruf",
+      "definition": "Der Vorgang, bei dem ein System Informationen oder Quellen findet und auswählt, die für eine bestimmte Frage verwendet werden können.",
+      "records": [
+        "NGQ-010",
+        "NGQ-011",
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Crawling",
+      "definition": "Das Entdecken und Anfordern einer URL durch ein automatisiertes Werkzeug mit dem Versuch, den ausgelieferten Inhalt abzurufen.",
+      "records": [
+        "NGQ-016",
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Indexierung",
+      "definition": "Analyse abgerufener Inhalte und ihre Umwandlung in einen Datensatz, der in einem Such- oder Abrufsystem verwendet werden kann.",
+      "records": [
+        "NGQ-017"
+      ]
+    },
+    {
+      "term": "Strukturierte Daten",
+      "definition": "Markup, das Maschinen die Angaben einer Seite mithilfe bestimmter Felder und Beziehungen erklärt.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019"
+      ]
+    },
+    {
+      "term": "JSON",
+      "definition": "Ein Textformat, das Daten in einer geordneten Struktur aus Schlüsseln und Werten überträgt.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019"
+      ]
+    },
+    {
+      "term": "JSON-LD",
+      "definition": "Eine Möglichkeit, mit JSON die Bedeutung verknüpfter Daten über Entitäten und Beziehungen auszudrücken.",
+      "records": [
+        "NGQ-018",
+        "NGQ-019",
+        "NGQ-020"
+      ]
+    },
+    {
+      "term": "Kanonische URL",
+      "definition": "Ein Signal, das unter ähnlichen oder doppelten URLs die bevorzugte Seitenadresse bestimmt.",
+      "records": [
+        "NGQ-017",
+        "NGQ-019",
+        "NGQ-020"
+      ]
+    },
+    {
+      "term": "Kanonischer Identitätsdatensatz",
+      "definition": "Der von NOMOS GEO vorgeschlagene Primärdatensatz zur Verwaltung stabiler Identität, Namen, Beziehungen, Status und Belegverknüpfungen einer Entität.",
+      "records": [
+        "NGQ-020",
+        "NGQ-021",
+        "NGQ-022"
+      ]
+    },
+    {
+      "term": "Kanonischer Name",
+      "definition": "Der bevorzugte Primärname innerhalb eines bestimmten Datensatzes und Nutzungskontexts.",
+      "records": [
+        "NGQ-022"
+      ]
+    },
+    {
+      "term": "Alternativname",
+      "definition": "Ein gültiger, vom Primärnamen abweichender Name derselben Entität.",
+      "records": [
+        "NGQ-022",
+        "NGQ-023"
+      ]
+    },
+    {
+      "term": "Entitätsauflösung",
+      "definition": "Der Vorgang, bei dem bestimmt wird, welche reale Entität ein Name oder Datensatz bezeichnet.",
+      "records": [
+        "NGQ-004",
+        "NGQ-023",
+        "NGQ-024"
+      ]
+    },
+    {
+      "term": "Rolle",
+      "definition": "Funktion oder Beziehung einer Person oder Identität innerhalb einer Organisation. Eine Rolle verleiht nicht automatisch jede Befugnis.",
+      "records": [
+        "NGQ-025",
+        "NGQ-028"
+      ]
+    },
+    {
+      "term": "Befugnis",
+      "definition": "Erlaubnis oder rechtliche Macht, eine bestimmte Handlung innerhalb festgelegter Grenzen und Bedingungen auszuführen.",
+      "records": [
+        "NGQ-025",
+        "NGQ-026",
+        "NGQ-027"
+      ]
+    },
+    {
+      "term": "Delegation",
+      "definition": "Übertragung eines bestimmten Teils der Befugnis einer Partei auf einen anderen Akteur, begrenzt nach Umfang und Dauer.",
+      "records": [
+        "NGQ-026",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Herrenloses Konto",
+      "definition": "Ein noch bestehendes Konto ohne aktuellen Besitzer oder verantwortliche Person.",
+      "records": [
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Schattenberechtigung",
+      "definition": "Eine Berechtigung, die im formalen Rollendatensatz nicht ausdrücklich sichtbar ist, praktisch aber über einen anderen Weg genutzt werden kann.",
+      "records": [
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Restzugang",
+      "definition": "Zugang, der nach Ende der Aufgabe oder des Bedarfs aktiv bleibt.",
+      "records": [
+        "NGQ-028",
+        "NGQ-030"
+      ]
+    },
+    {
+      "term": "Dienstkonto",
+      "definition": "Ein Konto zum Betrieb einer nichtmenschlichen Arbeitslast.",
+      "records": [
+        "NGQ-030",
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "Service Principal",
+      "definition": "In Microsoft Entra ein Objekt, das eine Anwendung oder Dienstinstanz als Sicherheitsidentität repräsentiert.",
+      "records": [
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "Verwaltete Identität",
+      "definition": "Eine Arbeitslastidentität, deren Zugangsdaten-Lebenszyklus durch einen Cloud-Anbieter verwaltet wird.",
+      "records": [
+        "NGQ-031"
+      ]
+    },
+    {
+      "term": "KI-Agentenidentität",
+      "definition": "Eine Identität, die einen KI-Agenten mit bestimmtem Zweck, Sponsor, Werkzeugen, Berechtigungen und Handlungsverlauf unterscheidet.",
+      "records": [
+        "NGQ-031",
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Technischer Akteur",
+      "definition": "Die Identität eines Menschen, einer Anwendung, Arbeitslast oder eines Agenten, die eine Handlung in einem System tatsächlich ausführt.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Repräsentiertes Subjekt",
+      "definition": "Die Person oder Organisation, in deren Namen oder zu deren Nutzen eine Handlung ausgeführt wird.",
+      "records": [
+        "NGQ-032"
+      ]
+    },
+    {
+      "term": "Initiator",
+      "definition": "Der erste bestimmte Akteur oder das Ereignis, das eine Handlung oder einen Handlungsvorschlag auslöst.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Genehmigender",
+      "definition": "Die befugte Partei, die eine Handlung für bestimmten Inhalt, Ziel, Umfang und Zeitraum erlaubt.",
+      "records": [
+        "NGQ-032",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Ausführender",
+      "definition": "Der Akteur, der eine genehmigte oder anderweitig befugte Handlung technisch ausführt.",
+      "records": [
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Provenienz",
+      "definition": "Die Beziehungskette, die zeigt, wer einen Datensatz oder eine Handlung aus welchen Eingaben, zu welchem Zeitpunkt und durch welchen Prozess erzeugte.",
+      "records": [
+        "NGQ-015",
+        "NGQ-029",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Trace-ID",
+      "definition": "Eine Kennung, die zusammengehörige technische Ereignisse in einer Spur eines verteilten Systems bündelt. Allein belegt sie weder Befugnis noch Richtigkeit.",
+      "records": [
+        "NGQ-029",
+        "NGQ-033"
+      ]
+    },
+    {
+      "term": "Menschliche Genehmigung",
+      "definition": "Erlaubnis einer befugten Person für eine bestimmte Handlung, die versteht, was, warum und mit welcher Folge genehmigt wird.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035",
+        "NGQ-052",
+        "NGQ-055"
+      ]
+    },
+    {
+      "term": "Informierte Genehmigung",
+      "definition": "Eine Genehmigung, die erst nach verständlicher Darstellung von wesentlichem Zweck, Umfang, Risiken, Alternativen und Folgen erteilt wird.",
+      "records": [
+        "NGQ-034",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Handlungsspezifische Genehmigung",
+      "definition": "Eine auf einen Vorgang mit bestimmtem Ziel, Umfang, Wirkung und Zeitraum begrenzte Genehmigung.",
+      "records": [
+        "NGQ-034",
+        "NGQ-038",
+        "NGQ-055"
+      ]
+    },
+    {
+      "term": "Wirksame menschliche Aufsicht",
+      "definition": "Aufsicht, bei der ein Mensch nicht nur auf einer Oberfläche erscheint, sondern Ergebnis prüfen, anfechten, stoppen und ändern kann.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Automationsbias",
+      "definition": "Die Neigung, eine automatisierte oder KI-Ausgabe allein wegen ihrer Systemherkunft für richtiger zu halten, als die Belege rechtfertigen.",
+      "records": [
+        "NGQ-035",
+        "NGQ-036"
+      ]
+    },
+    {
+      "term": "Abnickentscheidung",
+      "definition": "Eine formelle Entscheidung, die menschlich genehmigt wirkt, aber keine wirkliche Prüfung, kein Verständnis und keine Änderungsmöglichkeit enthält.",
+      "records": [
+        "NGQ-034",
+        "NGQ-035"
+      ]
+    },
+    {
+      "term": "Genehmigungsmüdigkeit",
+      "definition": "Verlust menschlicher Aufmerksamkeit und Entscheidungsqualität durch zu häufige, unklare oder unnötige Genehmigungsanforderungen.",
+      "records": [
+        "NGQ-035"
+      ]
+    },
+    {
+      "term": "Funktionstrennung",
+      "definition": "Die Bedingung, dass Befugnis zu Vorbereitung, Genehmigung, Ausführung und Abschluss eines kritischen Vorgangs nicht unangemessen bei einer Partei konzentriert ist.",
+      "records": [
+        "NGQ-034",
+        "NGQ-038",
+        "NGQ-039",
+        "NGQ-052",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Entscheidungsspur",
+      "definition": "Eine Datensatzkette, die Eingabe, Systemversion, Empfehlung, menschliche Prüfung, Genehmigung, Anwendung und Ergebnis einer Entscheidung verbindet.",
+      "records": [
+        "NGQ-037",
+        "NGQ-041",
+        "NGQ-044"
+      ]
+    },
+    {
+      "term": "Anfechtungsweg",
+      "definition": "Ein bestimmtes Verfahren, durch das eine betroffene Person eine Entscheidung verstehen und korrigieren sowie eine erneute Prüfung durch eine befugte Person oder unabhängige Stelle erhalten kann.",
+      "records": [
+        "NGQ-036",
+        "NGQ-037",
+        "NGQ-039",
+        "NGQ-040"
+      ]
+    },
+    {
+      "term": "Folgenreiche Entscheidung",
+      "definition": "Eine Entscheidung, die Rechte, Sicherheit, Lebensunterhalt, wesentliche Leistungen, Ruf oder wichtige Chancen einer Person erheblich beeinflussen kann.",
+      "records": [
+        "NGQ-036",
+        "NGQ-037",
+        "NGQ-038",
+        "NGQ-040"
+      ]
+    },
+    {
+      "term": "Entscheidungslebenszyklus",
+      "definition": "Alle Stufen einer Entscheidung: Initiierung, Datenerhebung, Erzeugung, Prüfung, Genehmigung, Anwendung, Mitteilung, Anfechtung, Korrektur und Abschluss.",
+      "records": [
+        "NGQ-041",
+        "NGQ-044"
+      ]
+    },
+    {
+      "term": "Rückwirkende Neubewertung",
+      "definition": "Erneute Prüfung früherer Entscheidungen in einem bestimmten Umfang, wenn eine System- oder Bedingungsänderung ein neues Risiko erzeugt.",
+      "records": [
+        "NGQ-042",
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Historische Richtigkeit",
+      "definition": "Das Maß, in dem ein Datensatz die bei seiner Erstellung geltenden Informationen und Regeln richtig wiedergibt.",
+      "records": [
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Aktuelle Gültigkeit",
+      "definition": "Ob eine früher richtige Entscheidung oder Information heute weiterhin gültig verwendet werden kann.",
+      "records": [
+        "NGQ-042",
+        "NGQ-043"
+      ]
+    },
+    {
+      "term": "Nur ergänzbarer Datensatz",
+      "definition": "Ein Datensatzmodell, bei dem frühere Ereignisse nicht still überschrieben und neue Zustände als getrennte, geordnete Ereignisse hinzugefügt werden.",
+      "records": [
+        "NGQ-044",
+        "NGQ-045"
+      ]
+    },
+    {
+      "term": "Verteilungsbestätigung",
+      "definition": "Ein Beleg, der zeigt, wann eine Korrektur oder Beschränkung ein Folgesystem erreichte und wie sie dort angewendet wurde.",
+      "records": [
+        "NGQ-045",
+        "NGQ-046",
+        "NGQ-049"
+      ]
+    },
+    {
+      "term": "Wiederauferstehungsrisiko",
+      "definition": "Das Risiko, dass gelöschte, berichtigte oder eingeschränkte Daten aus Cache, Sicherung, Export oder Modellgedächtnis erneut erscheinen.",
+      "records": [
+        "NGQ-046",
+        "NGQ-047",
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Löschung",
+      "definition": "Entfernung von Daten aus einer bestimmten aktiven oder Speicheroberfläche, sodass sie nicht wiederhergestellt oder verwendet werden können; der genaue Umfang richtet sich nach technischem und rechtlichem Kontext.",
+      "records": [
+        "NGQ-046",
+        "NGQ-047",
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Legal Hold",
+      "definition": "Eine eng begrenzte, dokumentierte Aufbewahrungspflicht, die gewöhnliche Löschung aus einem konkreten rechtlichen oder beweissichernden Grund aussetzt.",
+      "records": [
+        "NGQ-047"
+      ]
+    },
+    {
+      "term": "Medienbereinigung",
+      "definition": "Der Vorgang, Information auf einem Datenträger unter bestimmten Bedrohungs- und Wiederverwendungsbedingungen unzugänglich zu machen.",
+      "records": [
+        "NGQ-048"
+      ]
+    },
+    {
+      "term": "Maschinelles Verlernen",
+      "definition": "Ein technischer Vorgang zur Verringerung oder Entfernung des Einflusses bestimmter Trainingsdaten auf das Modellverhalten; er ist nicht dasselbe wie die Löschung eines Datensatzes.",
+      "records": [
+        "NGQ-048",
+        "NGQ-049",
+        "NGQ-050"
+      ]
+    },
+    {
+      "term": "Nichtverwendungsregel",
+      "definition": "Eine vorübergehende Kontrolle, die bestimmte Daten von Abruf, Entscheidungen, Training, Empfehlungen oder Werkzeugnutzung fernhält, solange Löschung oder Verlernen unvollständig ist.",
+      "records": [
+        "NGQ-049",
+        "NGQ-050"
+      ]
+    },
+    {
+      "term": "Freigabetor",
+      "definition": "Eine Kontrolle, die bestimmte Tests und menschliche Genehmigung verlangt, bevor Daten, Modell oder Funktion erneut genutzt werden dürfen.",
+      "records": [
+        "NGQ-050",
+        "NGQ-052"
+      ]
+    },
+    {
+      "term": "Offener Status",
+      "definition": "Ein vorübergehender Zustand ohne abschließende Entscheidung, in dem Verantwortlicher, Grund, nächster Schritt, Frist und Eskalationsweg erfasst sein müssen.",
+      "records": [
+        "NGQ-051"
+      ]
+    },
+    {
+      "term": "Sicheres Abschalten",
+      "definition": "Ein aufgezeichneter Abschaltvorgang, der ein bestimmtes Risiko unterbricht, den betroffenen Umfang begrenzt, Belege bewahrt und sichere Leistungsalternativen berücksichtigt.",
+      "records": [
+        "NGQ-052",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Neustarttor",
+      "definition": "Eine Kontrolle, die eine Wiedereröffnung des Systems verhindert, bis Ursache, Abhilfe, Tests, menschliche Genehmigung und Rollback-Bereitschaft vollständig sind.",
+      "records": [
+        "NGQ-052"
+      ]
+    },
+    {
+      "term": "Prompt Injection",
+      "definition": "Der Versuch einer Eingabe, ein KI-System aus seinen vorgesehenen Anweisungen, Richtlinien oder Befugnisgrenzen zu drängen.",
+      "records": [
+        "NGQ-053"
+      ]
+    },
+    {
+      "term": "Indirekte Prompt Injection",
+      "definition": "Übermittlung einer böswilligen Anweisung durch externe Inhalte wie Webseite, Dokument, E-Mail, Bild, Werkzeugausgabe oder Abrufquelle.",
+      "records": [
+        "NGQ-053"
+      ]
+    },
+    {
+      "term": "Quellenvergiftung",
+      "definition": "Verunreinigung von Quellen in einer Abruf- oder Entscheidungsumgebung, die das System fehlleitet.",
+      "records": [
+        "NGQ-054",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Synthetischer Konsens",
+      "definition": "Der Anschein vieler unabhängiger Quellen und einer gemeinsamen Auffassung, der durch Kopien derselben Ursprungsquelle entsteht.",
+      "records": [
+        "NGQ-054"
+      ]
+    },
+    {
+      "term": "Quellenwäsche",
+      "definition": "Der Vorgang, eine schwache oder unbelegte Aussage durch Kopier- und Zitierketten glaubwürdig erscheinen zu lassen.",
+      "records": [
+        "NGQ-054"
+      ]
+    },
+    {
+      "term": "KI-Lieferkette",
+      "definition": "Die Kette externer Bestandteile aus Modellen, Datensätzen, APIs, Plug-ins, Werkzeugen, Infrastruktur und ihren Unterabhängigkeiten.",
+      "records": [
+        "NGQ-057"
+      ]
+    },
+    {
+      "term": "KI- oder Repräsentationsvorfall",
+      "definition": "Ein Ereignis in einem KI-System oder einer verbundenen Publikations-, Daten- und Werkzeugkette, das durch Falschrepräsentation, Sicherheit, Datenschutz, Befugnis, Leistung oder Belegintegrität Schaden verursacht.",
+      "records": [
+        "NGQ-052",
+        "NGQ-058"
+      ]
+    },
+    {
+      "term": "Truth Pack",
+      "definition": "Ein versioniertes Belegpaket, das atomare Aussagen, Quellen, Konflikte, Umfang, Zeit und als Prüfreferenz verwendete menschliche Urteile verbindet.",
+      "records": [
+        "NGQ-059",
+        "NGQ-061",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Referenzwahrheit",
+      "definition": "Die nach einer geeigneten Belegmethode für bestimmte Entität, Umfang, Zeit und Nutzungskontext angenommene Prüfreferenz.",
+      "records": [
+        "NGQ-059"
+      ]
+    },
+    {
+      "term": "Fragenregister",
+      "definition": "Ein vor dem Test versionierter Bestand aus Fragetexten, Absichten, Risikoklassen und Ausführungsbedingungen.",
+      "records": [
+        "NGQ-060",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Atomare Aussage",
+      "definition": "Der kleinste wesentliche Satz, der für sich verifiziert oder als ungeklärt belassen werden kann.",
+      "records": [
+        "NGQ-059",
+        "NGQ-061",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Aussageledger",
+      "definition": "Ein versionierter Datensatz, der für jede atomare Aussage Verknüpfungen zu Entität, Beleg, Ergebnis, Schwere, Prüfer, Begründung und Unsicherheit bewahrt.",
+      "records": [
+        "NGQ-061"
+      ]
+    },
+    {
+      "term": "Nichtkompensation",
+      "definition": "Der Grundsatz, dass ein kritisches Scheitern nicht durch viele Erfolge mit geringer Wirkung weggemittelt werden kann.",
+      "records": [
+        "NGQ-061",
+        "NGQ-064",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Ausgabestreuung",
+      "definition": "Abweichungen von KI-Ausgaben über Zeit und Wiederholungen unter gleichen oder ähnlichen Bedingungen.",
+      "records": [
+        "NGQ-060",
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Messunsicherheit",
+      "definition": "Unsicherheit eines Ergebnisses aufgrund von Stichprobe, Bedingungsunterschieden, Klassifizierung und methodischen Grenzen.",
+      "records": [
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Konfidenzintervall",
+      "definition": "Ein statistisches Intervall, das die Messunsicherheit einer Schätzung unter angegebenen Annahmen zusammenfasst; es ist keine Konfidenzaussage des Modells selbst.",
+      "records": [
+        "NGQ-062"
+      ]
+    },
+    {
+      "term": "Prüfungsunabhängigkeit",
+      "definition": "Eine Arbeitsbedingung, die das Urteil des Prüfers vor unzulässigem Druck schützt, Interessen offenlegt und verhindert, dass er die eigene Arbeit allein genehmigt.",
+      "records": [
+        "NGQ-063",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Reproduzierbarkeit",
+      "definition": "Die Fähigkeit eines anderen hinreichend kompetenten Prüfers, ausgewählte Ergebnisse mit demselben Protokoll und denselben Belegen in angemessenem Maß nachzuvollziehen.",
+      "records": [
+        "NGQ-041",
+        "NGQ-060",
+        "NGQ-063"
+      ]
+    },
+    {
+      "term": "Abhilfebestätigung",
+      "definition": "Ein Datensatz, der Fehler, Ursache, Änderung, Bereitstellung, Live-Verifikation, Nachtest, Regression und Abschlussbeleg unter einer Kennung verbindet.",
+      "records": [
+        "NGQ-058",
+        "NGQ-064"
+      ]
+    },
+    {
+      "term": "Regression",
+      "definition": "Ein neuer Fehler, den eine Korrektur in angrenzendem Datensatz, Sprache, Oberfläche, Funktion oder Nutzerweg einführt.",
+      "records": [
+        "NGQ-064",
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Feldparität",
+      "definition": "Die wesentliche Gleichwertigkeit bindender Felder wie Identität, Aussage, normative Kraft, Version, Datum, Quellen, Lizenz und Grenzen über Publikationsoberflächen hinweg.",
+      "records": [
+        "NGQ-065",
+        "NGQ-066"
+      ]
+    },
+    {
+      "term": "Kontrollierte Transkreation",
+      "definition": "Sprachübertragung, die natürlichen Zielsprachentext erzeugt und zugleich atomare Aussagen, normative Kraft, Belegumfang, rechtliche Grenzen und Maschinenfeldparität bewahrt.",
+      "records": [
+        "NGQ-066"
+      ]
+    },
+    {
+      "term": "Rückwärtskompatibilität",
+      "definition": "Die Fähigkeit einer neuen Freigabe, definiertes Verhalten älterer Verbraucher und Dateien nicht zu brechen.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Inkompatible Änderung",
+      "definition": "Eine Änderung, die ein bestehendes Feld, eine Norm, einen Vertrag oder Verbraucherverhalten inkompatibel macht.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Migrationszuordnung",
+      "definition": "Eine versionierte Zuordnung, die die Umwandlung zwischen alten und neuen Feldern, Werten, Regeln und Dateistrukturen erklärt.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Abkündigung",
+      "definition": "Kontrollierte Stilllegung eines Feldes oder einer Freigabe mit Warnung, Alternative, Unterstützungszeitraum und Entfernungsdatum.",
+      "records": [
+        "NGQ-067"
+      ]
+    },
+    {
+      "term": "Kanonisierungspaket",
+      "definition": "Ein Paket, das Identität, kanonische Adresse, DOI-Beziehungen, Dateien, Hashes, Lizenz und Archivspiegel einer Freigabe in einem Manifest verbindet.",
+      "records": [
+        "NGQ-068"
+      ]
+    },
+    {
+      "term": "Dateiintegritätshash",
+      "definition": "Ein mit bestimmtem Algorithmus berechneter Prüfwert zur Feststellung, ob sich die verglichene Bytefolge geändert hat.",
+      "records": [
+        "NGQ-064",
+        "NGQ-068"
+      ]
+    },
+    {
+      "term": "Konformitätserklärung",
+      "definition": "Ein Ergebnisdatensatz, der geprüfte Datensätze, Sprachen, Oberflächen, Systeme, Versionen, Daten, Tore, Ausnahmen, Prüfungsart und Entscheidungsverantwortlichen ausdrücklich nennt.",
+      "records": [
+        "NGQ-063",
+        "NGQ-069"
+      ]
+    },
+    {
+      "term": "Stewardship und Pflege",
+      "definition": "Die Regelung, die Gründerabsicht, Zugänglichkeit, Versionsgeschichte und letzten gültigen Zustand des Werks bei Personen- oder Institutionswechseln bewahrt.",
+      "records": [
+        "NGQ-068",
+        "NGQ-069"
+      ]
+    }
+  ]
+}
