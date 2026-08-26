@@ -1,0 +1,457 @@
+{
+  "registry": "NOMOS GEO-QA — Canonical Question Registry",
+  "version": "0.3.1",
+  "status": "FOUNDER_EDITION_RELEASED",
+  "language": "ru",
+  "canonical": "https://noblejackal.com/ru/nomos-geo-qa/sources/",
+  "sources": [
+    {
+      "id": "S01",
+      "source": "Aggarwal et al., * GEO: оптимизация для генеративных систем *",
+      "class": "Исследования",
+      "records": "NGQ-001, 003, 012, 013",
+      "url": "https://arxiv.org/abs/2311.09735"
+    },
+    {
+      "id": "S02",
+      "source": "Google Search Central, *SEO Starter Guide*",
+      "class": "Документация поставщика",
+      "records": "NGQ-001, 003, 010, 013",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    },
+    {
+      "id": "S03",
+      "source": "Google Search Central, *Overview of Crawling and Indexing*",
+      "class": "Документация поставщика",
+      "records": "NGQ-010, 011, 016, 017",
+      "url": "https://developers.google.com/search/docs/crawling-indexing"
+    },
+    {
+      "id": "S04",
+      "source": "Google Search Central, *Block Search Indexing with noindex*",
+      "class": "Документация поставщика",
+      "records": "NGQ-016, 017",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing"
+    },
+    {
+      "id": "S05",
+      "source": "Google Search Central, *Introduction to Structured Data*",
+      "class": "Документация поставщика",
+      "records": "NGQ-018, 019",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+    },
+    {
+      "id": "S06",
+      "source": "Google Search Central, *General Structured Data Guidelines*",
+      "class": "Документация поставщика",
+      "records": "NGQ-018, 019",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
+    },
+    {
+      "id": "S07",
+      "source": "W3C, *JSON-LD 1.1*",
+      "class": "Стандарты",
+      "records": "NGQ-018, 019, 020",
+      "url": "https://www.w3.org/TR/json-ld11/"
+    },
+    {
+      "id": "S08",
+      "source": "Schema.org, *Data Model*",
+      "class": "Стандартный и общественный словарный запас",
+      "records": "NGQ-004, 018–024",
+      "url": "https://schema.org/docs/datamodel.html"
+    },
+    {
+      "id": "S09",
+      "source": "OpenAI, *Overview of OpenAI Crawlers*",
+      "class": "Документация поставщика",
+      "records": "NGQ-016",
+      "url": "https://developers.openai.com/api/docs/bots"
+    },
+    {
+      "id": "S10",
+      "source": "Anthropic, *Does Anthropic Crawl Data from the Web?*",
+      "class": "Документация поставщика",
+      "records": "NGQ-016",
+      "url": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler"
+    },
+    {
+      "id": "S11",
+      "source": "Google Search Central, *Canonicalization*",
+      "class": "Документация поставщика",
+      "records": "NGQ-019–021",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+    },
+    {
+      "id": "S12",
+      "source": "ORCID, *ORCID Trust*",
+      "class": "Инфраструктура идентификации",
+      "records": "NGQ-020–023",
+      "url": "https://info.orcid.org/orcid-trust/"
+    },
+    {
+      "id": "S13",
+      "source": "ROR, *ROR Data Structure*",
+      "class": "Инфраструктура идентификации",
+      "records": "NGQ-020–023",
+      "url": "https://ror.readme.io/docs/ror-data-structure"
+    },
+    {
+      "id": "S14",
+      "source": "DataCite, *Versioning*",
+      "class": "Инфраструктура идентификации",
+      "records": "NGQ-020–022",
+      "url": "https://support.datacite.org/docs/versioning"
+    },
+    {
+      "id": "S15",
+      "source": "DataCite, *Connecting Versions with Related Identifiers*",
+      "class": "Инфраструктура идентификации",
+      "records": "NGQ-020–022",
+      "url": "https://support.datacite.org/docs/connecting-versions-with-related-identifiers"
+    },
+    {
+      "id": "S16",
+      "source": "IETF, RFC 5646, *Tags for Identifying Languages*",
+      "class": "Стандарты",
+      "records": "NGQ-022",
+      "url": "https://www.rfc-editor.org/info/rfc5646/"
+    },
+    {
+      "id": "S17",
+      "source": "Wikidata, *Help: Statements*",
+      "class": "Инфраструктура идентификации",
+      "records": "NGQ-023",
+      "url": "https://www.wikidata.org/wiki/Help:Statements/en"
+    },
+    {
+      "id": "S18",
+      "source": "WIPO, *Trademarks*",
+      "class": "Официальный орган",
+      "records": "NGQ-024",
+      "url": "https://www.wipo.int/en/web/trademarks"
+    },
+    {
+      "id": "S19",
+      "source": "Республика Турция Министерство торговли, *Законодательство о компаниях и торговом реестре*",
+      "class": "Официальный орган",
+      "records": "NGQ-025–029",
+      "url": "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/sirketler-ve-ticaret-sicili"
+    },
+    {
+      "id": "S20",
+      "source": "Республика Турция Министерство торговли, * Торговый реестр*",
+      "class": "Официальный орган",
+      "records": "NGQ-025–029",
+      "url": "https://ticaret.gov.tr/ic-ticaret/ticaret-sicili"
+    },
+    {
+      "id": "S21",
+      "source": "Турецкий коммерческий кодекс No 6102, PDF, размещенный министерством",
+      "class": "Официальный орган",
+      "records": "NGQ-025–028",
+      "url": "https://ticaret.gov.tr/data/5d419b8013b87639ac9e00cd/17d7c7108dae78d14a3f220b519f98f6.pdf"
+    },
+    {
+      "id": "S22",
+      "source": "Министерство торговли Республики Турция, *MERSİS <unk> Центральная система регистрации*",
+      "class": "Официальный орган",
+      "records": "NGQ-025–030",
+      "url": "https://ticaret.gov.tr/ic-ticaret/ticaret-sicili/merkezi-sicil-kayit-sistemi-mersis"
+    },
+    {
+      "id": "S23",
+      "source": "Управление по информационным и коммуникационным технологиям (BTK), *Электронная подпись <unk> Общая информация*",
+      "class": "Официальный орган",
+      "records": "NGQ-026, 027, 032, 033",
+      "url": "https://btk.gov.tr/elektronik-imza-genel-bilgi"
+    },
+    {
+      "id": "S24",
+      "source": "NIST SP 800-63-4, *Digital Identity Guidelines*",
+      "class": "Стандарты",
+      "records": "NGQ-028–033",
+      "url": "https://csrc.nist.gov/pubs/sp/800/63/4/final"
+    },
+    {
+      "id": "S25",
+      "source": "NIST SP 800-63B-4, *Authentication and Authenticator Management*",
+      "class": "Стандарты",
+      "records": "NGQ-028–031",
+      "url": "https://pages.nist.gov/800-63-4/sp800-63b.html"
+    },
+    {
+      "id": "S26",
+      "source": "NIST SP 800-53 Rev. 5, *Security and Privacy Controls*",
+      "class": "Стандарты",
+      "records": "NGQ-028–033",
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    },
+    {
+      "id": "S27",
+      "source": "IETF, RFC 7644, *System for Cross-domain Identity Management: Protocol*",
+      "class": "Стандарты",
+      "records": "NGQ-028–030",
+      "url": "https://www.rfc-editor.org/info/rfc7644/"
+    },
+    {
+      "id": "S28",
+      "source": "IETF, RFC 9967, *SCIM Roles and Entitlements Extension*",
+      "class": "Стандарты",
+      "records": "NGQ-028–030",
+      "url": "https://www.rfc-editor.org/info/rfc9967/"
+    },
+    {
+      "id": "S29",
+      "source": "Microsoft Learn, *Application and Service Principal Objects in Microsoft Entra ID*",
+      "class": "Документация поставщика",
+      "records": "NGQ-030–032",
+      "url": "https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals"
+    },
+    {
+      "id": "S30",
+      "source": "Microsoft Learn, *Managed Identities for Azure Resources*",
+      "class": "Документация поставщика",
+      "records": "NGQ-030–032",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview"
+    },
+    {
+      "id": "S31",
+      "source": "Google Cloud, *Identities for Workloads*",
+      "class": "Документация поставщика",
+      "records": "NGQ-030–032",
+      "url": "https://docs.cloud.google.com/iam/docs/workload-identities"
+    },
+    {
+      "id": "S32",
+      "source": "AWS IAM, *Temporary Credentials with AWS Resources*",
+      "class": "Документация поставщика",
+      "records": "NGQ-030–032",
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html"
+    },
+    {
+      "id": "S33",
+      "source": "IETF, RFC 6749, *The OAuth 2.0 Authorization Framework*",
+      "class": "Стандарты",
+      "records": "NGQ-031, 032",
+      "url": "https://www.rfc-editor.org/info/rfc6749/"
+    },
+    {
+      "id": "S34",
+      "source": "IETF, RFC 8693, *OAuth 2.0 Token Exchange*",
+      "class": "Стандарты",
+      "records": "NGQ-032, 033",
+      "url": "https://www.rfc-editor.org/info/rfc8693/"
+    },
+    {
+      "id": "S35",
+      "source": "W3C, *PROV-O: The PROV Ontology*",
+      "class": "Стандарты",
+      "records": "NGQ-021, 029, 032, 033",
+      "url": "https://www.w3.org/TR/prov-o/"
+    },
+    {
+      "id": "S36",
+      "source": "W3C, *Trace Context*",
+      "class": "Стандарты",
+      "records": "NGQ-029, 033",
+      "url": "https://www.w3.org/TR/trace-context/"
+    },
+    {
+      "id": "S37",
+      "source": "OpenTelemetry, *General Trace Semantic Conventions*",
+      "class": "Стандартная и проектная документация",
+      "records": "NGQ-029, 033",
+      "url": "https://opentelemetry.io/docs/specs/semconv/general/trace/"
+    },
+    {
+      "id": "S38",
+      "source": "NIST AI 600-1, *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*",
+      "class": "Добровольное институциональное руководство в области стандартов",
+      "records": "NGQ-052, 056–058",
+      "url": "https://doi.org/10.6028/NIST.AI.600-1"
+    },
+    {
+      "id": "S39",
+      "source": "NIST AI 100-2 E2025, *Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations*",
+      "class": "Добровольное институциональное руководство в области стандартов",
+      "records": "NGQ-053–055",
+      "url": "https://doi.org/10.6028/NIST.AI.100-2e2025"
+    },
+    {
+      "id": "S40",
+      "source": "OWASP GenAI Security Project, *LLM01:2025 Prompt Injection*",
+      "class": "Открытое руководство по проектам безопасности",
+      "records": "NGQ-053",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+    },
+    {
+      "id": "S41",
+      "source": "NCSC и агентства-партнеры, *Руководства по разработке безопасной системы ИИ*",
+      "class": "Официальное руководство по безопасности для различных ведомств",
+      "records": "NGQ-052–058",
+      "url": "https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/guidelines"
+    },
+    {
+      "id": "S42",
+      "source": "NIST SP 800-61 Rev. 3, *Incident Response Recommendations and Considerations for Cybersecurity Risk Management*",
+      "class": "Добровольное институциональное руководство в области стандартов",
+      "records": "NGQ-052, 058",
+      "url": "https://doi.org/10.6028/NIST.SP.800-61r3"
+    },
+    {
+      "id": "S43",
+      "source": "NIST SP 800-161 Rev. 1 Update 1, *Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations*",
+      "class": "Добровольное институциональное руководство в области стандартов",
+      "records": "NGQ-054, 057",
+      "url": "https://doi.org/10.6028/NIST.SP.800-161r1-upd1"
+    },
+    {
+      "id": "S44",
+      "source": "NIST, * AI Risk Management Framework Playbook* и AI RMF Core",
+      "class": "Направления по добровольному осуществлению",
+      "records": "NGQ-052–058",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/"
+    },
+    {
+      "id": "S45",
+      "source": "Европейский Союз, Регламент (ЕС) 2024/1689 <unk> *Закон об искусственном интеллекте*",
+      "class": "Законодательство",
+      "records": "NGQ-052, 055, 057, 058",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    },
+    {
+      "id": "S46",
+      "source": "European Data Protection Board, *Opinion 28/2024 on Certain Data Protection Aspects Related to the Processing of Personal Data in the Context of AI Models*",
+      "class": "Официальное заключение совета директоров",
+      "records": "NGQ-056",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en"
+    },
+    {
+      "id": "S47",
+      "source": "NIST, *Privacy Framework 1.0: A Tool for Improving Privacy through Enterprise Risk Management*",
+      "class": "Добровольная структура риска для конфиденциальности",
+      "records": "NGQ-056, 057",
+      "url": "https://doi.org/10.6028/NIST.CSWP.01162020"
+    },
+    {
+      "id": "S48",
+      "source": "Европейский Союз, Регламент (ЕС) 2016/679 <unk> *Общий регламент о защите данных*",
+      "class": "Законодательство",
+      "records": "NGQ-056, 058",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "id": "S49",
+      "source": "Управление по защите персональных данных Турции, *Закон о защите персональных данных No 6698*",
+      "class": "Официальный орган и законодательство",
+      "records": "NGQ-056, 058",
+      "url": "https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law"
+    },
+    {
+      "id": "S50",
+      "source": "NIST AI 100-1, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*",
+      "class": "Добровольная институциональная база, ориентированная на стандарты",
+      "records": "NGQ-059–NGQ-064",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1"
+    },
+    {
+      "id": "S51",
+      "source": "NIST/SEMATECH, *e-Handbook of Statistical Methods*",
+      "class": "Техническое руководство официального органа",
+      "records": "NGQ-060, NGQ-062",
+      "url": "https://www.itl.nist.gov/div898/handbook/"
+    },
+    {
+      "id": "S52",
+      "source": "NIST CSWP 31, *Proxy Validation and Verification for Critical AI Systems: A Proxy Design Process*",
+      "class": "Техническая белая книга официальных органов",
+      "records": "NGQ-060, NGQ-063, NGQ-064",
+      "url": "https://doi.org/10.6028/NIST.CSWP.31"
+    },
+    {
+      "id": "S53",
+      "source": "JSON Schema, *Specification — Draft 2020-12*",
+      "class": "Открытая техническая спецификация",
+      "records": "NGQ-065, NGQ-067",
+      "url": "https://json-schema.org/specification"
+    },
+    {
+      "id": "S54",
+      "source": "*Semantic Versioning 2.0.0*",
+      "class": "Спецификация открытого управления версиями",
+      "records": "NGQ-067",
+      "url": "https://semver.org/spec/v2.0.0.html"
+    },
+    {
+      "id": "S55",
+      "source": "DOI Foundation, *DOI Handbook*",
+      "class": "Официальное руководство по постоянному идентификатору",
+      "records": "NGQ-068",
+      "url": "https://www.doi.org/doi-handbook/html/"
+    },
+    {
+      "id": "S56",
+      "source": "NIST FIPS 180-4, *Secure Hash Standard*",
+      "class": "Официальный стандарт",
+      "records": "NGQ-068",
+      "url": "https://doi.org/10.6028/NIST.FIPS.180-4"
+    },
+    {
+      "id": "S57",
+      "source": "W3C Internationalization, *Declaring Language in HTML*",
+      "class": "Руководство по реализации W3C",
+      "records": "NGQ-066",
+      "url": "https://www.w3.org/International/questions/qa-html-language-declarations"
+    },
+    {
+      "id": "S58",
+      "source": "Zenodo, *About Records*",
+      "class": "Официальная документация хранилища данных",
+      "records": "NGQ-067, NGQ-068",
+      "url": "https://help.zenodo.org/docs/deposit/about-records/"
+    },
+    {
+      "id": "S59",
+      "source": "Creative Commons, *О лицензиях CC* и выборщике лицензий",
+      "class": "Официальная документация поставщика лицензии",
+      "records": "NGQ-068, NGQ-069",
+      "url": "https://creativecommons.org/share-your-work/cclicenses/"
+    },
+    {
+      "id": "S60",
+      "source": "IETF BCP 14 / RFC 8174, *Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words*",
+      "class": "Стандарты",
+      "records": "NGQ-066, NGQ-069",
+      "url": "https://www.rfc-editor.org/info/rfc8174"
+    },
+    {
+      "id": "S61",
+      "source": "Council of Europe, *Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law* (CETS No. 225)",
+      "class": "Международная конвенция и официальное учреждение",
+      "records": "NGQ-037–039, NGQ-051",
+      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence"
+    },
+    {
+      "id": "S62",
+      "source": "European Data Protection Board, *Guidelines on Automated Individual Decision-Making and Profiling for the Purposes of Regulation 2016/679*",
+      "class": "Официальное руководство совета",
+      "records": "NGQ-034–039, NGQ-047–051",
+      "url": "https://www.edpb.europa.eu/documents/guideline/automated-decision-making-and-profiling_en"
+    },
+    {
+      "id": "S63",
+      "source": "NIST SP 800-88 Rev. 2, *Guidelines for Media Sanitization*",
+      "class": "Официальные руководства органов, ориентированные на стандарты",
+      "records": "NGQ-047, NGQ-048",
+      "url": "https://doi.org/10.6028/NIST.SP.800-88r2"
+    },
+    {
+      "id": "S64",
+      "source": "Управление по защите персональных данных Турции, *Регламент об удалении, уничтожении или анонимизации персональных данных*",
+      "class": "Официальный орган и законодательство",
+      "records": "NGQ-047–050",
+      "url": "https://www.kvkk.gov.tr/Icerik/5441/KISISEL-VERILERIN-SILINMESI-YOK-EDILMESI-VEYA-ANONIM-HALE-GETIRILMESI-HAKKINDA-YONETMELIK"
+    }
+  ]
+}
